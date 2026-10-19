@@ -1,0 +1,52 @@
+{
+  "日期": "2026-09-08",
+  "装配": "<LOCAL>/触控视觉头部_自动对焦相机空间候选.SLDASM",
+  "组件数": 27,
+  "配合数": 58,
+  "配合错误": [],
+  "干涉": [],
+  "相机保留实体数": 590,
+  "相机板体Check2原始返回": 0,
+  "相机安装孔轴_头部坐标_mm": [
+    [
+      10.499998779296897,
+      30.1000001325969,
+      54.55104
+    ],
+    [
+      10.499998779296897,
+      17.600000132596847,
+      54.55104
+    ],
+    [
+      -10.50000003814697,
+      30.099999978428098,
+      54.55104
+    ],
+    [
+      -10.50000003814697,
+      17.59999997842813,
+      54.55104
+    ]
+  ],
+  "相机孔轴到托架设计轴最大偏差_mm": 1.2278835463315109e-06,
+  "原生零件SHA256": {
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\H05_触控屏与镜头圆角面框.SLDPRT": "b90ac9a66d95972c6a909a9c6969c22281ad807a443cf56988f9f440f2d63dff",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\S02_M3平垫圈简化实体.SLDPRT": "da840bb196f4b9c4ce2edced653966a2e8a6c4a26aecf65ad3295098fc0a768c",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\H07_触控屏齐平柔性密封圈.SLDPRT": "1d04aadacff3645ff0b7a5c3f2a8c10486f8a374c7e27ddc6493872386332426",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\V03_微雪2点8寸触控屏厂家参考.SLDPRT": "c1d426eb2aa9989d7a7dbf136693ace0bce0ed718488f3be37b1f37ed9e8c1f5",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\S01_M3x10_M3内六角螺钉简化实体.SLDPRT": "f02512e8fc20b08a507b82955699a70c00c7ea73d3288c64790031055a979705",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\S03_M3螺母简化实体.SLDPRT": "473c7006c9a90887988c74e64f4a3a2c6335ab10d0b0392bdb87d5d06d1440d0",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\H11_长臂卡扣螺母防落杯.SLDPRT": "39f5faf008dd3691c84a1223f0d7ae6dfafcade961381fc13f2f6f3ce966d64c",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\H12_带可换相机接口的屏幕承架.SLDPRT": "cf6a169fd59b4f1c03c437c36e1e5ec00961eacef326c1bbcd91911468dda1b6",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\H13_四点绝缘可换相机托架.SLDPRT": "c7e86bdf1a744be9b4e7041818846e3e80ea0fb477e9c423c7e1cb0bdd5f8b17",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\V06_树莓派三代标准自动对焦相机官方参考.SLDPRT": "a43b880c0bd399cce5bc685f627370ac23ba8d4d3cb3c8c672b2712ba96f542d",
+    "C:\\Users\\Linhcry\\Documents\\ChatGPT\\New project\\modular_pet_sw\\parts\\H10_宽槽螺母杯定位曲面头壳.SLDPRT": "f091bae72c53e0f3e2c636f557d66d66fea0fee2c078b328447fa474891eb367"
+  },
+  "边界": [
+    "相机及托架仅有基准定位配合，M2相机和M3托架完整紧固件尚未加入",
+    "官方STEP与PDF板厚不同；支承高度及实际夹紧尺寸须实物复核",
+    "名义刚性几何检查不证明光学入瞳、实拍视场、连续线缆行程、热或振动通过"
+  ],
+  "装配SHA256": "dfa6bab645f9f59f1e26e1b9b1a7279448a957dd6249eccc014aa3c1aae61256"
+}

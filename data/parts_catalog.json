@@ -1,0 +1,5074 @@
+[
+  {
+    "id": "F01_Belly",
+    "name": "下承载板",
+    "kind": "custom",
+    "path": "<LOCAL>/F01_下承载板.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "320 x 190 x 4; 22 x diameter 3.4",
+    "notes": "Hole coordinates defined in fully dimensioned sketch; GB/T70.1 M3 clearance assumption.",
+    "bbox_mm": [
+      -160.0,
+      -95.0,
+      0.0,
+      160.0,
+      95.0,
+      4.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "承载板外形与安装孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "承载板外形与安装孔",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F02_Deck",
+    "name": "上承载板",
+    "kind": "custom",
+    "path": "<LOCAL>/F02_上承载板.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "220 x 190 x 3",
+    "notes": "",
+    "bbox_mm": [
+      -110.0,
+      -95.0,
+      0.0,
+      110.0,
+      95.0,
+      3.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "上板外形与安装孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "上板外形与安装孔",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F03_SideRail",
+    "name": "侧承载梁",
+    "kind": "custom",
+    "path": "<LOCAL>/F03_侧承载梁.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "312x10x54; C-channel2.5; 6x3.4 atY1",
+    "notes": "采用槽形截面减重；上下翼缘的每根贯穿螺钉必须配49mm压缩隔套，防止夹紧时压瘪。",
+    "bbox_mm": [
+      -156.0,
+      -5.0,
+      0.0,
+      156.0,
+      5.0,
+      54.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "轻量槽梁截面_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "轻量槽梁截面",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "上下翼缘连接孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F04_Bulkhead",
+    "name": "髋关节安装隔板",
+    "kind": "custom",
+    "path": "<LOCAL>/F04_髋关节安装隔板.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "164 x54 x4; joint centres108; 8 x diameter3.4 on44-square",
+    "notes": "Two actuator mounts. Lower plate contact and brace interfaces need final fastener design.",
+    "bbox_mm": [
+      -82.0,
+      -27.0,
+      0.0,
+      82.0,
+      27.0,
+      4.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "隔板与髋安装孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "隔板与髋安装孔",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F05_BatteryTray",
+    "name": "电池托架",
+    "kind": "custom",
+    "path": "<LOCAL>/F05_电池托架.SLDPRT",
+    "material_assumption": "PA12 (design assumption)",
+    "key_dimensions_mm": "146 x 76 x 21; inside 140 x 70",
+    "notes": "",
+    "bbox_mm": [
+      -73.0,
+      -38.0,
+      0.0,
+      73.0,
+      38.0,
+      21.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "托架底板_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "托架底板",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "托架侧围_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F06_CoreTray",
+    "name": "智能核心托板",
+    "kind": "custom",
+    "path": "<LOCAL>/F06_智能核心托板.SLDPRT",
+    "material_assumption": "PA12 (design assumption)",
+    "key_dimensions_mm": "94 x 76 x 3",
+    "notes": "",
+    "bbox_mm": [
+      -47.0,
+      -38.0,
+      0.0,
+      47.0,
+      38.0,
+      3.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "托板轮廓_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "托板轮廓",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "J01_Housing_ENV",
+    "name": "关节定子包络与安装法兰",
+    "kind": "envelope",
+    "path": "<LOCAL>/J01_关节定子包络与安装法兰.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "54 square flange; body diameter44 x24; bore26; 4 x diameter3.4 on44",
+    "notes": "Unselected integrated actuator envelope. No claim of motor torque, bearings, thermal or exact vendor interface.",
+    "bbox_mm": [
+      -27.0,
+      -27.0,
+      0.0,
+      27.0,
+      27.0,
+      28.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "定子安装法兰_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "定子安装法兰",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "电机外形包络_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "J02_Output_ENV",
+    "name": "关节输出接口包络",
+    "kind": "envelope",
+    "path": "<LOCAL>/J02_关节输出接口包络.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "diameter25.4 journal; diameter38 flange; 4 x diameter3.4 PCD30; endZ35",
+    "notes": "Rotates in J01 with 0.3 mm radial envelope gap and 0.5 mm axial gap; this is not a designed bearing clearance.",
+    "bbox_mm": [
+      -19.0,
+      -19.0,
+      4.0,
+      19.0,
+      19.0,
+      35.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "输出轴包络_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "输出轴包络",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "输出法兰_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "J03_HipYoke",
+    "name": "髋部正交连接座",
+    "kind": "custom",
+    "path": "<LOCAL>/J03_髋部正交连接座.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "54 x55 x62; base5; side6; side axis at Z35",
+    "notes": "Two native extrusions on orthogonal datums; roll output PCD30 to pitch stator 44-square.",
+    "bbox_mm": [
+      -27.0,
+      -27.0,
+      0.0,
+      27.0,
+      28.0,
+      62.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "正交安装壁_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "正交安装壁",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "横滚输出连接面_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L01_UpperLink",
+    "name": "大腿连杆",
+    "kind": "custom",
+    "path": "<LOCAL>/L01_大腿连杆.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "轴距145；端部外径48；腰宽28；厚5；两端各4×直径3.4，分度圆38；中心孔8.2",
+    "notes": "端部R24与收腰R30圆弧相切，直腰过渡；适配AK45-10输出转接盘。两端PCD38孔组；为候选接口，最终电机待大工程师具体规格确认。",
+    "bbox_mm": [
+      -24.0,
+      -169.0,
+      0.0,
+      24.0,
+      24.0,
+      5.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "相切圆弧收腰轮廓_孔圆直径38",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "轻量承载连杆_厚5",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L02_LowerLink",
+    "name": "小腿连杆",
+    "kind": "custom",
+    "path": "<LOCAL>/L02_小腿连杆.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "轴距145；端部外径48；腰宽28；厚5；两端各4×直径3.4，分度圆38；中心孔8.2",
+    "notes": "端部R24与收腰R30圆弧相切，直腰过渡相切；配合AK45-10输出转换盘。孔系已由概念版PCD30修订为PCD38，旧工程图需要更新。",
+    "bbox_mm": [
+      -24.0,
+      -169.0,
+      0.0,
+      24.0,
+      24.0,
+      5.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "相切圆弧收腰轮廓_孔圆直径38",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "轻量承载连杆_厚5",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "J04_Adapter",
+    "name": "30圆周至44方孔转接板",
+    "kind": "custom",
+    "path": "<LOCAL>/J04_30圆周至44方孔转接板.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "54 x54 x4; PCD30 and44-square",
+    "notes": "Two bolt groups require opposite assembly access.",
+    "bbox_mm": [
+      -27.0,
+      -27.0,
+      0.0,
+      27.0,
+      27.0,
+      4.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "双孔系转接板_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "双孔系转接板",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L03_FootMount",
+    "name": "足端连接板",
+    "kind": "custom",
+    "path": "<LOCAL>/L03_足端连接板.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "vertical plate42 x48 x8; sole46 x40 x8; pivot8.2; passive ankle",
+    "notes": "Passive ankle pivot; pin retaining details and hard stops require next design iteration.",
+    "bbox_mm": [
+      -23.0,
+      -24.0,
+      0.0,
+      23.0,
+      24.0,
+      40.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "足端竖板_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "足端竖板",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "足端水平支撑_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L04_FootPad",
+    "name": "可换弹性足垫",
+    "kind": "custom",
+    "path": "<LOCAL>/L04_可换弹性足垫.SLDPRT",
+    "material_assumption": "TPU 85A prototype assumption",
+    "key_dimensions_mm": "46 x52 x12",
+    "notes": "Pad retained by bonded prototype interface; production mechanical retention pending.",
+    "bbox_mm": [
+      -23.0,
+      -26.0,
+      0.0,
+      23.0,
+      26.0,
+      12.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "柔性垫外形_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "柔性垫外形",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C01_CargoShell",
+    "name": "储物舱壳体",
+    "kind": "custom",
+    "path": "<LOCAL>/C01_储物舱壳体.SLDPRT",
+    "material_assumption": "PA12 prototype assumption",
+    "key_dimensions_mm": "外廓150×120×48；壁厚3；后壁4×直径3.4；内托盘支柱高4",
+    "notes": "后壁铰链孔坐标X=±35、±55，Z=35；孔轴沿Y。内托盘高于舱底螺钉头。",
+    "bbox_mm": [
+      -75.0,
+      -60.0,
+      0.0,
+      92.0,
+      60.0,
+      48.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "舱底_圆角轮廓",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "舱底_厚3",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "舱壁_圆弧双轮廓",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "外观圆角_R0.6",
+        "type": "Fillet",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "防退出销连接耳_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "滑靴连接孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "铰链固定页安装孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "内托盘支承柱_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "草图7",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "草图8",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "草图9",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C02_Lid",
+    "name": "储物舱盖",
+    "kind": "custom",
+    "path": "<LOCAL>/C02_储物舱盖.SLDPRT",
+    "material_assumption": "PA12 prototype assumption",
+    "key_dimensions_mm": "拱盖154×124×14；抽壳2.5；4个M3安装凸台直径7.5高7",
+    "notes": "凸台中心(±45,45)、(±45,53)；M3×0.5底孔直径2.5深6.5，有效螺纹深5.5。",
+    "bbox_mm": [
+      -77.041,
+      -62.041,
+      -0.041,
+      77.008,
+      62.008,
+      14.008
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "舱盖_连续拱面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "舱盖_连续拱面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "舱盖_连续拱面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "舱盖_连续拱面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "舱盖_连续拱面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_2.5mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "铰链局部承托-45_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "铰链局部承托45_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "铰链螺纹凸台_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "草图8",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "草图9",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "草图10",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "M3底孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C03_Tray",
+    "name": "储物舱内托盘",
+    "kind": "custom",
+    "path": "<LOCAL>/C03_储物舱内托盘.SLDPRT",
+    "material_assumption": "TPU prototype assumption",
+    "key_dimensions_mm": "136 x106 x2",
+    "notes": "Finger ingress and object packaging must be verified against selected gripper.",
+    "bbox_mm": [
+      -68.0,
+      -53.0,
+      0.0,
+      68.0,
+      53.0,
+      2.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "可拆内托盘_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "可拆内托盘",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C04_HingeLeaf",
+    "name": "舱盖铰链页",
+    "kind": "custom",
+    "path": "<LOCAL>/C04_舱盖铰链页.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "外跨36；双耳长12；孔径4.2；中间圆角避让口宽12.4、R1",
+    "notes": "中间轴套避让口消除与活动铰页轴套的实体重叠；保留两侧承载耳。",
+    "bbox_mm": [
+      -18.0,
+      0.0,
+      -18.0,
+      18.0,
+      9.0,
+      4.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "固定页_外壁安装面_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "固定页_外壁安装面",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "双耳铰座轴孔-18",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "双耳铰座轴孔6",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "活动轴套圆角避让_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A01_ArmLink",
+    "name": "机械臂连杆",
+    "kind": "custom",
+    "path": "<LOCAL>/A01_机械臂连杆.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "轴距120；端部外径48；腰宽28；厚5；两端各4×直径3.4，分度圆38；中心孔8.2",
+    "notes": "端部R24与收腰R30圆弧相切，直腰过渡相切；配合AK45-10输出转换盘。孔系已由概念版PCD30修订为PCD38，旧工程图需要更新。",
+    "bbox_mm": [
+      -24.0,
+      -144.0,
+      0.0,
+      24.0,
+      24.0,
+      5.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "相切圆弧收腰轮廓_孔圆直径38",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "轻量承载连杆_厚5",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A02_GripperPalm",
+    "name": "夹爪掌板",
+    "kind": "custom",
+    "path": "<LOCAL>/A02_夹爪掌板.SLDPRT",
+    "material_assumption": "6061-T6 aluminium (design assumption)",
+    "key_dimensions_mm": "88 x45 x6; finger pivot centres68",
+    "notes": "",
+    "bbox_mm": [
+      -44.0,
+      -22.5,
+      0.0,
+      44.0,
+      22.5,
+      6.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "夹爪掌板_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "夹爪掌板",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A03_Finger",
+    "name": "可换夹爪手指",
+    "kind": "custom",
+    "path": "<LOCAL>/A03_可换夹爪手指.SLDPRT",
+    "material_assumption": "PA12-CF prototype assumption",
+    "key_dimensions_mm": "length88; width16; thickness5; pivot4.2",
+    "notes": "Actuation tendon/synchronizer not yet designed; opening shown as concept only.",
+    "bbox_mm": [
+      -8.0,
+      -78.0,
+      0.0,
+      8.0,
+      10.0,
+      5.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "手指轮廓与轴孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "手指轮廓与轴孔",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A04_FingerPad",
+    "name": "夹爪柔性指垫",
+    "kind": "custom",
+    "path": "<LOCAL>/A04_夹爪柔性指垫.SLDPRT",
+    "material_assumption": "Silicone prototype assumption",
+    "key_dimensions_mm": "12 x24 x3",
+    "notes": "",
+    "bbox_mm": [
+      -6.0,
+      -12.0,
+      0.0,
+      6.0,
+      12.0,
+      3.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "柔性垫外形_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "柔性垫外形",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H01_HeadShell",
+    "name": "视觉头部壳体",
+    "kind": "custom",
+    "path": "<LOCAL>/H01_视觉头部壳体.SLDPRT",
+    "material_assumption": "PA12 prototype assumption",
+    "key_dimensions_mm": "4 sections:70x60 /88x74 /82x68 /70x56; depth50; shell3",
+    "notes": "原生放样曲面、3mm抽壳、后壁安装孔；传感器选型前保留内部空间。",
+    "bbox_mm": [
+      -48.95,
+      -40.857,
+      -0.085,
+      48.95,
+      40.857,
+      50.085
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "头部_连续曲面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头部_连续曲面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头部_连续曲面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头部_连续曲面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头部_连续曲面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_3mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "后壁安装孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H02_Faceplate",
+    "name": "视觉前面罩",
+    "kind": "custom",
+    "path": "<LOCAL>/H02_视觉前面罩.SLDPRT",
+    "material_assumption": "PA12 prototype assumption",
+    "key_dimensions_mm": "ellipse70 x56; thickness3; windows2 x18; microphone5",
+    "notes": "",
+    "bbox_mm": [
+      -35.0,
+      -28.0,
+      0.0,
+      35.0,
+      28.0,
+      3.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "椭圆面罩_光学窗口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "面罩_厚3",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H03_Lens_ENV",
+    "name": "相机镜头包络",
+    "kind": "envelope",
+    "path": "<LOCAL>/H03_相机镜头包络.SLDPRT",
+    "material_assumption": "Camera envelope; mass unknown",
+    "key_dimensions_mm": "diameter16 x10",
+    "notes": "",
+    "bbox_mm": [
+      -8.0,
+      -8.0,
+      0.0,
+      8.0,
+      8.0,
+      10.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "镜头包络_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "镜头包络",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T01_Tail",
+    "name": "轻量尾部连杆",
+    "kind": "custom",
+    "path": "<LOCAL>/T01_轻量尾部连杆.SLDPRT",
+    "material_assumption": "PA12 prototype assumption",
+    "key_dimensions_mm": "128 long; width30→14; thickness5",
+    "notes": "Expression only; not a structural self-righting support.",
+    "bbox_mm": [
+      -15.0,
+      -110.0,
+      0.0,
+      15.0,
+      18.0,
+      5.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "尾部轮廓_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "尾部轮廓",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "E01_Battery_ENV",
+    "name": "电池包络",
+    "kind": "envelope",
+    "path": "<LOCAL>/E01_电池包络.SLDPRT",
+    "material_assumption": "Unselected battery; no material-based mass",
+    "key_dimensions_mm": "132 x62 x34",
+    "notes": "",
+    "bbox_mm": [
+      -66.0,
+      -31.0,
+      0.0,
+      66.0,
+      31.0,
+      34.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "电池外形包络_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "电池外形包络",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "E02_Compute_ENV",
+    "name": "计算板包络",
+    "kind": "envelope",
+    "path": "<LOCAL>/E02_计算板包络.SLDPRT",
+    "material_assumption": "Unselected compute; no material-based mass",
+    "key_dimensions_mm": "86 x62 x21",
+    "notes": "",
+    "bbox_mm": [
+      -43.0,
+      -31.0,
+      0.0,
+      43.0,
+      31.0,
+      21.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "计算板外形包络_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "计算板外形包络",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S01_M3x10",
+    "name": "M3内六角螺钉简化实体",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S01_M3x10_M3内六角螺钉简化实体.SLDPRT",
+    "material_assumption": "Steel; grade to be selected",
+    "key_dimensions_mm": "M3 x10; head5.5 x3; GB/T70.1-2008 size family",
+    "notes": "Thread and socket simplified; exact length availability and current standard to be confirmed before purchase.",
+    "bbox_mm": [
+      -2.75,
+      -2.75,
+      -10.0,
+      2.75,
+      2.75,
+      3.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "公称M3杆部_螺纹简化_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "公称M3杆部_螺纹简化",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "螺钉头部_内六角省略_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S01_M3x16",
+    "name": "M3内六角螺钉简化实体",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S01_M3x16_M3内六角螺钉简化实体.SLDPRT",
+    "material_assumption": "Steel; grade to be selected",
+    "key_dimensions_mm": "M3 x16; head5.5 x3; GB/T70.1-2008 size family",
+    "notes": "Thread and socket simplified; exact length availability and current standard to be confirmed before purchase.",
+    "bbox_mm": [
+      -2.75,
+      -2.75,
+      -16.0,
+      2.75,
+      2.75,
+      3.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "公称M3杆部_螺纹简化_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "公称M3杆部_螺纹简化",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "螺钉头部_内六角省略_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S01_M3x65",
+    "name": "M3内六角螺钉简化实体",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S01_M3x65_M3内六角螺钉简化实体.SLDPRT",
+    "material_assumption": "Steel; grade to be selected",
+    "key_dimensions_mm": "M3 x65; head5.5 x3; GB/T70.1-2008 size family",
+    "notes": "Thread and socket simplified; exact length availability and current standard to be confirmed before purchase.",
+    "bbox_mm": [
+      -2.75,
+      -2.75,
+      -65.0,
+      2.75,
+      2.75,
+      3.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "公称M3杆部_螺纹简化_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "公称M3杆部_螺纹简化",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "螺钉头部_内六角省略_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S02_M3Washer",
+    "name": "M3平垫圈简化实体",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S02_M3平垫圈简化实体.SLDPRT",
+    "material_assumption": "Steel",
+    "key_dimensions_mm": "3.2 x7 x0.5; GB/T97.1-2002 family",
+    "notes": "",
+    "bbox_mm": [
+      -3.5,
+      -3.5,
+      0.0,
+      3.5,
+      3.5,
+      0.5
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "平垫圈_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "平垫圈",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S03_M3Nut",
+    "name": "M3螺母简化实体",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S03_M3螺母简化实体.SLDPRT",
+    "material_assumption": "Steel",
+    "key_dimensions_mm": "M3; AF5.5; thickness2.4 assumption",
+    "notes": "Non-helical representation. Applicable GB/T standard and nut style not yet frozen.",
+    "bbox_mm": [
+      -3.175,
+      -2.75,
+      0.0,
+      3.175,
+      2.75,
+      2.4
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "六角螺母_螺纹简化_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "六角螺母_螺纹简化",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q01_Rail",
+    "name": "快拆燕尾导轨",
+    "kind": "custom",
+    "path": "<LOCAL>/Q01_快拆燕尾导轨.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "length130; base20x2; dovetail top14 at height8; 3 x3.4 with6.2x3 counterbores",
+    "notes": "在底座承担垂直载荷；导轨配合仅保留纵向滑动。间隙为设计值，需按加工工艺试装。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -10.0,
+      0.0,
+      0.0,
+      10.0,
+      8.0,
+      130.0
+    ],
+    "features": [
+      {
+        "name": "燕尾导轨截面_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "燕尾导轨截面",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "导轨安装通孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "螺钉头沉孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q02_Shoe",
+    "name": "快拆燕尾滑靴",
+    "kind": "custom",
+    "path": "<LOCAL>/Q02_快拆燕尾滑靴.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "长130；宽22；顶部高度15；承载顶壁6.6；2×M3底孔2.5",
+    "notes": "M3×8螺钉穿过0.5垫圈与3厚舱底，理论旋入4.5；螺钉端部距导轨顶面2.5，不碰导轨。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -11.0,
+      2.3,
+      0.0,
+      11.0,
+      15.0,
+      130.0
+    ],
+    "features": [
+      {
+        "name": "燕尾滑靴_避空截面_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "燕尾滑靴_避空截面",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "M3螺纹底孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q03_PinSeat",
+    "name": "快拆防退出销座",
+    "kind": "custom",
+    "path": "<LOCAL>/Q03_快拆防退出销座.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "20×20×15；中心直径4.2；2×直径3.4",
+    "notes": "高度随滑靴顶面统一为15；需与舱底连接耳同轴。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -10.0,
+      -10.0,
+      0.0,
+      10.0,
+      10.0,
+      15.0
+    ],
+    "features": [
+      {
+        "name": "销座_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "销座",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q04_PullPin",
+    "name": "圆帽快拆定位销",
+    "kind": "custom",
+    "path": "<LOCAL>/Q04_圆帽快拆定位销.SLDPRT",
+    "material_assumption": "不锈钢杆＋打印拉帽（设计假设）",
+    "key_dimensions_mm": "shaft4x15; shoulder8x3; rounded pull cap height7",
+    "notes": "拆装时先拔销再滑出；最终需防跳脱保持/系绳设计，不将重力保持当成抗跳跃锁止。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -6.03,
+      -6.03,
+      0.0,
+      6.03,
+      6.03,
+      25.01
+    ],
+    "features": [
+      {
+        "name": "防退出定位杆_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "防退出定位杆",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "轴向止挡肩_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "圆润拉拔帽_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "圆润拉拔帽_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "圆润拉拔帽_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "圆润拉拔帽_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "圆润拉拔帽",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C05_MovingHinge",
+    "name": "舱盖活动铰链页",
+    "kind": "custom",
+    "path": "<LOCAL>/C05_舱盖活动铰链页.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "轴套长11，内径4.2；页片11×27×3；2×直径3.4，孔距8",
+    "notes": "靠近舱壁的孔向内移动2；安装后螺钉垫圈与内壁保留0.5径向间隙。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -5.5,
+      -22.0,
+      -4.0,
+      5.5,
+      9.0,
+      6.0
+    ],
+    "features": [
+      {
+        "name": "舱盖铰接页_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "舱盖铰接页",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "活动页轴孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F07_CompressionSleeve",
+    "name": "侧梁压缩隔套",
+    "kind": "custom",
+    "path": "<LOCAL>/F07_侧梁压缩隔套.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "OD6 / ID3.4 x49",
+    "notes": "置于上下翼缘之间，传递紧固预紧力；不能省去。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -3.0,
+      -3.0,
+      0.0,
+      3.0,
+      3.0,
+      49.0
+    ],
+    "features": [
+      {
+        "name": "压缩隔套_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "压缩隔套",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F08_CoreStandoff",
+    "name": "智能核心支承隔柱",
+    "kind": "custom",
+    "path": "<LOCAL>/F08_智能核心支承隔柱.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "OD8 / ID3.4 x35",
+    "notes": "位置需随最终计算板孔位调整。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -4.0,
+      -4.0,
+      0.0,
+      4.0,
+      4.0,
+      35.0
+    ],
+    "features": [
+      {
+        "name": "支承隔柱_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "支承隔柱",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F09_ArmPedestal",
+    "name": "机械臂中空安装柱",
+    "kind": "custom",
+    "path": "<LOCAL>/F09_机械臂中空安装柱.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "64x64 flanges; height54; middle wall4",
+    "notes": "肩部反力通过上下法兰传至框架，内部保留走线空间。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -32.0,
+      -32.0,
+      0.0,
+      32.0,
+      32.0,
+      54.0
+    ],
+    "features": [
+      {
+        "name": "底部安装法兰_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "底部安装法兰",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "中空承载柱_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "顶部安装法兰_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C06_HingePin",
+    "name": "舱盖铰链肩销",
+    "kind": "custom",
+    "path": "<LOCAL>/C06_舱盖铰链肩销.SLDPRT",
+    "material_assumption": "不锈钢（设计假设）",
+    "key_dimensions_mm": "销头直径7×2；光轴直径4×36.5；轴端M3×5",
+    "notes": "光轴比固定页外跨36长0.5；螺母压紧光轴肩部，不夹死活动页。螺纹仅用公称实体表示。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -3.5,
+      -3.5,
+      0.0,
+      3.5,
+      3.5,
+      43.5
+    ],
+    "features": [
+      {
+        "name": "销头_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "销头",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "直径4光轴_有效长36_5_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "M3轴端螺纹_公称实体_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S01_M3x8",
+    "name": "M3x8内六角螺钉",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S01_M3x8内六角螺钉.SLDPRT",
+    "material_assumption": "钢（强度等级待选）",
+    "key_dimensions_mm": "M3×8；头部直径5.5高3；内六角对边2.5",
+    "notes": "GB/T 70.1-2008尺寸系列；螺纹简化为公称直径实体。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -2.75,
+      -2.75,
+      -8.0,
+      2.75,
+      2.75,
+      3.0
+    ],
+    "features": [
+      {
+        "name": "M3螺杆_公称实体_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "M3螺杆_公称实体",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "内六角圆柱头_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "内六角对边2_5_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V01_AK4510Stator",
+    "name": "AK45-10定子安装参考",
+    "kind": "purchased_reference",
+    "path": "<LOCAL>/V01_AK45-10定子安装参考.SLDPRT",
+    "material_assumption": "厂家采购组件；不得据简化几何计算总质量",
+    "key_dimensions_mm": "坐标Z=0为背面安装面，输出端Z=43；外径53；定子5×M2.5分度圆45；输出3×M2.5分度圆27；孔深须以实物螺纹有效深度最终确认。",
+    "notes": "厂家STEP外部构件派生，孔位与安装面保真。省略内部传动、紧固件和电路；质量以完整AK45-10 KV75厂家260g为基准，不能把两个参考件各算一台电机。",
+    "bbox_mm": [
+      -26.5,
+      -26.500000000000014,
+      -3.122502256758253e-14,
+      26.5,
+      26.5,
+      42.07417470206609
+    ],
+    "solid_count": 3,
+    "features": [],
+    "purchase_group": "CubeMars AK45-10 KV75"
+  },
+  {
+    "id": "V02_AK4510Output",
+    "name": "AK45-10输出法兰参考",
+    "kind": "purchased_reference",
+    "path": "<LOCAL>/V02_AK45-10输出法兰参考.SLDPRT",
+    "material_assumption": "厂家采购组件；不得据简化几何计算总质量",
+    "key_dimensions_mm": "坐标Z=0为背面安装面，输出端Z=43；外径53；定子5×M2.5分度圆45；输出3×M2.5分度圆27；孔深须以实物螺纹有效深度最终确认。",
+    "notes": "厂家STEP外部构件派生，孔位与安装面保真。省略内部传动、紧固件和电路；质量以完整AK45-10 KV75厂家260g为基准，不能把两个参考件各算一台电机。",
+    "bbox_mm": [
+      -18.5,
+      -18.5,
+      36.0,
+      18.5,
+      18.5,
+      43.0
+    ],
+    "solid_count": 1,
+    "features": [],
+    "purchase_group": "CubeMars AK45-10 KV75"
+  },
+  {
+    "id": "J05_AK4510StatorAdapter",
+    "name": "AK45-10定子安装盘",
+    "kind": "custom",
+    "path": "<LOCAL>/J05_AK45-10定子安装盘.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "64×64×3，圆角R10；5×直径2.9在分度圆45上；4×直径3.4在50方孔上；中心直径22",
+    "notes": "五孔角度0、60、120、240、300度，对应厂家后端盖真实孔位；禁止改成等分五孔。M2.5×8加0.5垫圈理论旋入4.5，实际有效螺纹深度须确认。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -32.0,
+      -32.0,
+      0.0,
+      32.0,
+      32.0,
+      3.0
+    ],
+    "features": [
+      {
+        "name": "定子端安装盘_五孔与框架四孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "安装盘_厚3",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "J06_AK4510OutputAdapter",
+    "name": "AK45-10输出转换盘",
+    "kind": "custom",
+    "path": "<LOCAL>/J06_AK45-10输出转换盘.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "直径48×6；3×直径2.9在分度圆27上；沉孔直径5.2深3.2；4×M3底孔2.5在分度圆38上",
+    "notes": "三孔角度-90、30、150度。沉孔内装M2.5×8与0.5垫圈；理论旋入4.7，螺钉顶面低于上表面0.2。连杆M3×10加垫圈理论旋入4.5；螺钉长度须按实物有效牙深复核。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -24.0,
+      -24.0,
+      0.0,
+      24.0,
+      24.0,
+      6.0
+    ],
+    "features": [
+      {
+        "name": "输出转换盘_厚6_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "输出转换盘_厚6",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "三处螺钉与垫圈沉孔_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S04_M25x8",
+    "name": "M2.5×8内六角螺钉",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S04_M2.5×8内六角螺钉.SLDPRT",
+    "material_assumption": "钢（强度等级待选）",
+    "key_dimensions_mm": "M2.5×8；头径4.5高2.5；内六角对边2",
+    "notes": "GB/T 70.1-2008尺寸系列。螺纹以公称实体表示；采购前确认强度等级和长度库存。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -2.25,
+      -2.25,
+      -8.0,
+      2.25,
+      2.25,
+      2.5
+    ],
+    "features": [
+      {
+        "name": "M2_5公称螺杆_长8_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "M2_5公称螺杆_长8",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "内六角圆柱头_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "内六角对边2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S05_M25Washer",
+    "name": "M2.5平垫圈",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S05_M2.5平垫圈.SLDPRT",
+    "material_assumption": "钢（设计假设）",
+    "key_dimensions_mm": "内径2.7、外径6、厚0.5",
+    "notes": "GB/T 97.1-2002公称2.5尺寸系列；用于定子安装盘背側。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -3.0,
+      -3.0,
+      0.0,
+      3.0,
+      3.0,
+      0.5
+    ],
+    "features": [
+      {
+        "name": "平垫圈_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "平垫圈",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S06_M25SmallWasher",
+    "name": "M2.5小平垫圈",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S06_M2.5小平垫圈.SLDPRT",
+    "material_assumption": "钢（设计假设）",
+    "key_dimensions_mm": "内径2.7、外径5、厚0.5",
+    "notes": "GB/T 848-2002公称2.5尺寸系列；用于输出转换盘沉孔。厂家尺寸来源 https://www.wqjgj.cn/product/dianquan/pingdian/7985.html 。未按模型创建采购订单。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -2.5,
+      -2.5,
+      0.0,
+      2.5,
+      2.5,
+      0.5
+    ],
+    "features": [
+      {
+        "name": "小平垫圈_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "小平垫圈",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F10_LightBelly",
+    "name": "镂空下承载板",
+    "kind": "custom",
+    "path": "<LOCAL>/F10_镂空下承载板.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "320×190×2.5；外角R22；8×66×60圆角窗；侧梁孔Y=±88",
+    "notes": "独立减重候选；保留横梁连接带；不是原F01等刚度替换。须在真实腿安装位置冻结后做屈曲、扭转及冲击校核。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -160.0,
+      -95.0,
+      0.0,
+      160.0,
+      95.0,
+      2.5
+    ],
+    "features": [
+      {
+        "name": "周边承载环_三条横向连接带_八个圆角减重窗",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "承载薄板_厚2_5",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F11_LightDeck",
+    "name": "双承载带上板",
+    "kind": "custom",
+    "path": "<LOCAL>/F11_双承载带上板.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "220×190×2；导轨孔X=-50/0/50、Y=±45；侧梁孔Y=±88",
+    "notes": "储物导轨下方保留连续承载带；独立候选，最终全机孔位尚未冻结。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -110.0,
+      -95.0,
+      0.0,
+      110.0,
+      95.0,
+      2.0
+    ],
+    "features": [
+      {
+        "name": "储物导轨双承载带_五个减重窗",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "上层薄板_厚2",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B01_LowerBody",
+    "name": "圆润机身下护壳",
+    "kind": "custom",
+    "path": "<LOCAL>/B01_圆润机身下护壳.SLDPRT",
+    "material_assumption": "PA12（设计假设）",
+    "key_dimensions_mm": "最大外廓约340×224×68；壁2.2；四髋避空D72；支承顶面Z15.3",
+    "notes": "非主承载护壳。止口高3，背盖装配基准Z65.6，名义径向间隙约0.5。M3塑料攻丝仅样机；正式版嵌件、卡扣与工艺收缩待校核。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -172.658,
+      -113.983,
+      -0.158,
+      172.658,
+      113.983,
+      68.0
+    ],
+    "features": [
+      {
+        "name": "机身下壳_四截面圆润过渡_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身下壳_四截面圆润过渡_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身下壳_四截面圆润过渡_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身下壳_四截面圆润过渡_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身下壳_四截面圆润过渡",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_2.2mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "接缝内台阶_底座",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "止口定位唇_轮廓",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四髋关节运动避空_直径72预留",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "底板四支承柱_轮廓",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "支承柱M3攻丝底孔_样机",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B02_UpperBody",
+    "name": "拱形机身背盖",
+    "kind": "custom",
+    "path": "<LOCAL>/B02_拱形机身背盖.SLDPRT",
+    "material_assumption": "PA12（设计假设）",
+    "key_dimensions_mm": "332×218×36；主体壁2.2；止口避空327.8×213.8R39.9深3；舱口172×132R20；颈口D50",
+    "notes": "需在下壳Z65.6安装；止口局部减薄，需按打印工艺校核最小壁厚。储物舱和颈轴保留开口。末端紧固和全行程碰撞未完成。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -166.462,
+      -109.458,
+      -0.086,
+      166.462,
+      109.458,
+      37.719
+    ],
+    "features": [
+      {
+        "name": "机身背盖_拱形曲面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_2.2mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "定位止口恒截面避空_单边0_6",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "储物舱可拆窗口_圆角20",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头部颈轴走线口_直径50",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "背部圆头散热槽_坐标固定_尺寸由生成参数控制",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B03_JointCover",
+    "name": "鼓形关节护罩",
+    "kind": "custom",
+    "path": "<LOCAL>/B03_鼓形关节护罩.SLDPRT",
+    "material_assumption": "PA12（设计假设）",
+    "key_dimensions_mm": "最大外径约67；深20；壁1.8；检修孔D12",
+    "notes": "统一宠物外观的关节护罩候选；不能作为已选电机罩或轴向支承使用。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -35.041,
+      -35.041,
+      -0.077,
+      35.041,
+      35.041,
+      20.077
+    ],
+    "features": [
+      {
+        "name": "关节外罩_鼓形曲面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "关节外罩_鼓形曲面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "关节外罩_鼓形曲面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "关节外罩_鼓形曲面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "关节外罩_鼓形曲面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_1.8mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "轴心检修孔_直径12",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q05_ShortShoe",
+    "name": "分体短燕尾滑靴",
+    "kind": "custom",
+    "path": "<LOCAL>/Q05_分体短燕尾滑靴.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "长24；宽22；顶高13.2；顶壁4.8；M3底孔D2.5位于Z12",
+    "notes": "每条导轨布置2件，全舱4件。M3×8穿过0.5垫圈与3mm舱底后啮合4.5mm，名义余隙0.3mm；公差与防松未释放。导向面间隙沿用原型，另需独立防退出锁止。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -11.0,
+      2.3,
+      0.0,
+      11.0,
+      13.2,
+      24.0
+    ],
+    "features": [
+      {
+        "name": "短滑靴燕尾截面_每条导轨两支点_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "短滑靴燕尾截面_每条导轨两支点",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "M3攻丝底孔_位于长度中心",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F12_ShortSideRail",
+    "name": "端部避空承载槽梁",
+    "kind": "custom",
+    "path": "<LOCAL>/F12_端部避空承载槽梁.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "300×10×54；壁2.5；X=±142/±100/±60处D3.4孔；孔端距8",
+    "notes": "匹配F10/F11；槽梁端部缩短避让背盖。上下翼缘夹紧需49mm压缩隔套，主载荷与紧固校核待完成。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -150.0,
+      -5.0,
+      0.0,
+      150.0,
+      5.0,
+      54.0
+    ],
+    "features": [
+      {
+        "name": "槽梁截面_端部避让曲面壳体_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "槽梁截面_端部避让曲面壳体",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "上下翼缘M3连接孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S01_M3x12",
+    "name": "M3x12内六角螺钉",
+    "kind": "standard_simplified",
+    "path": "<LOCAL>/S01_M3x12内六角螺钉.SLDPRT",
+    "material_assumption": "钢（强度等级待选）",
+    "key_dimensions_mm": "M3×12；头径5.5高3；内六角2.5",
+    "notes": "GB/T70.1尺寸系列简化模型；无实体牙型，非大工程师下载件。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -2.75,
+      -2.75,
+      -12.0,
+      2.75,
+      2.75,
+      3.0
+    ],
+    "features": [
+      {
+        "name": "M3公称螺杆长12_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "M3公称螺杆长12",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "内六角圆柱头_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "内六角对边2_5",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q06_LockBase",
+    "name": "防脱销承接底座",
+    "kind": "custom",
+    "path": "<LOCAL>/Q06_防脱销承接底座.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "底板24×54×3；承接台顶面16；D4.2盲孔底10.5",
+    "notes": "四个M3间隙孔(75/91,±21)；与机身连接尚待总装，不替代燕尾导轨承载。",
+    "solid_count": 1,
+    "bbox_mm": [
+      71.0,
+      -27.0,
+      0.0,
+      95.0,
+      27.0,
+      16.0
+    ],
+    "features": [
+      {
+        "name": "销座底板圆角与四个紧固孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "销座底板厚3",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "舱耳下方圆角承接台",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "销尖盲孔直径4_2",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q07_LockBridge",
+    "name": "防脱销圆角跨桥",
+    "kind": "custom",
+    "path": "<LOCAL>/Q07_防脱销圆角跨桥.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "顶体X76至94；顶面43；D8.4肩腔至35；M6x1底孔D5",
+    "notes": "销从跨桥下方装入再旋入M6孔，然后把跨桥螺接底座；禁止先装跨桥再强压防脱肩。有效螺纹8mm。",
+    "solid_count": 1,
+    "bbox_mm": [
+      71.0,
+      -27.0,
+      3.0,
+      95.0,
+      27.0,
+      43.0
+    ],
+    "features": [
+      {
+        "name": "桥顶圆角轮廓与M6攻丝底孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "桥顶薄板厚3",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "局部防脱与螺纹承载套",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "防脱肩避空孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "桥脚安装面-1",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "避开舱耳与垫圈的立柱-1",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "桥脚安装面1",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "避开舱耳与垫圈的立柱1",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q08_CaptivePin",
+    "name": "圆帽防脱螺旋定位销",
+    "kind": "custom",
+    "path": "<LOCAL>/Q08_圆帽防脱螺旋定位销.SLDPRT",
+    "material_assumption": "不锈钢（设计假设）",
+    "key_dimensions_mm": "销尖D4；防脱肩D8×2；M6x1公称杆；帽D14；行程9",
+    "notes": "螺纹未建牙型；旋出9圈到内部止挡。本阶段只检查轴向离散姿态，未建立连续螺旋运动副。振动防松未实测。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -7.185,
+      -7.185,
+      11.0,
+      7.185,
+      7.185,
+      49.017
+    ],
+    "features": [
+      {
+        "name": "销尖直径4_轴向11至24_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "销尖直径4_轴向11至24",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "整体防脱肩直径8厚2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "M6x1螺纹杆_公称实体_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "手拧帽止挡面_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "手拧帽圆润拱面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "手拧帽圆润拱面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "手拧帽圆润拱面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "手拧帽圆润拱面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F13_CargoSupportedDeck",
+    "name": "锁座连体支承上板",
+    "kind": "custom",
+    "path": "<LOCAL>/F13_锁座连体支承上板.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "220×190×2；右侧窗X30至65；锁座孔(75/91,±21)",
+    "notes": "保留F11旧板；锁座四孔下方保留材料，与双导轨承载带连通。仍需与侧梁总装和承载复核。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -110.0,
+      -95.0,
+      0.0,
+      110.0,
+      95.0,
+      2.0
+    ],
+    "features": [
+      {
+        "name": "圆角承载上板_锁座下方保留连续材料",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "上板厚2",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q09_RailPad",
+    "name": "燕尾导轨等高垫块",
+    "kind": "custom",
+    "path": "<LOCAL>/Q09_燕尾导轨等高垫块.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "16×14×3，圆角R2，中心D3.4",
+    "notes": "每条导轨3块，间距50；用于统一舱底与锁座高度。不是贯穿整条导轨的支承条，须校核导轨跨距。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -8.0,
+      -7.0,
+      0.0,
+      8.0,
+      7.0,
+      3.0
+    ],
+    "features": [
+      {
+        "name": "导轨等高垫块圆角与贯穿孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "导轨等高3",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B04_MainBack",
+    "name": "锁座避空曲面主背盖",
+    "kind": "custom",
+    "path": "<LOCAL>/B04_锁座避空曲面主背盖.SLDPRT",
+    "material_assumption": "PA12（设计假设）",
+    "key_dimensions_mm": "沿X=-77处分件，接缝0.6；支承座顶Z39，D3.4孔Y±78、X-64",
+    "notes": "保留放样曲面；拆两块压板后移开后盖，再解锁取舱。十一种离散姿态无额外干涉；连续行程、螺母防掉落及工具空间待完善。",
+    "bbox_mm": [
+      -110.79866421759223,
+      -111.47242848314606,
+      -0.00861669004021042,
+      166.4624812242157,
+      110.57224439002671,
+      39.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "收藏",
+        "type": "FavoriteFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "历史记录",
+        "type": "HistoryFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "选择集",
+        "type": "SelectionSetFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "传感器",
+        "type": "SensorFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "设计活页夹",
+        "type": "DocsFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "注解",
+        "type": "DetailCabinet",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "标注",
+        "type": "InkMarkupFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "光源与相机",
+        "type": "EnvFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "实体",
+        "type": "SolidBodyFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "曲面实体",
+        "type": "SurfaceBodyFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "备注",
+        "type": "CommentsFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "方程式",
+        "type": "EqnFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "材质 <未指定>",
+        "type": "MaterialFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "前视基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "上视基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "右视基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "原点",
+        "type": "OriginProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "Tables",
+        "type": "ConfigTableFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面2_基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面3_基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面4_基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_2.2mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "定位止口恒截面避空_单边0_6",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "止口插入区避空_顶端余量0_6",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "储物舱可拆窗口_圆角20",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "储物舱贯通检修口",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头部颈轴走线口_直径50",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头颈贯通避空",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "背部圆头散热槽_坐标固定_尺寸由生成参数控制",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "散热槽贯通",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "后部切除_主盖接缝X负76_7",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "前后护盖分件_接缝间隙0_6",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "锁座局部圆角避空_26乘64_R6",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "锁座与螺旋销穿出开口",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "两个连接压板平面支承座",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "支承座_底32顶39",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "两个M3贯穿连接孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "连接孔_双向贯穿",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "EDGE_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B05_ServiceBack",
+    "name": "可拆曲面后背盖",
+    "kind": "custom",
+    "path": "<LOCAL>/B05_可拆曲面后背盖.SLDPRT",
+    "material_assumption": "PA12（设计假设）",
+    "key_dimensions_mm": "沿X=-77处分件，接缝0.6；支承座顶Z39，D3.4孔Y±78、X-90",
+    "notes": "保留放样曲面；拆两块压板后移开后盖，再解锁取舱。十一种离散姿态无额外干涉；连续行程、螺母防掉落及工具空间待完善。",
+    "bbox_mm": [
+      -166.46248122467912,
+      -110.57224439002671,
+      -0.08616690040055262,
+      -52.69656920265055,
+      111.4724284831461,
+      39.0
+    ],
+    "solid_count": 1,
+    "features": [
+      {
+        "name": "收藏",
+        "type": "FavoriteFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "历史记录",
+        "type": "HistoryFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "选择集",
+        "type": "SelectionSetFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "传感器",
+        "type": "SensorFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "设计活页夹",
+        "type": "DocsFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "注解",
+        "type": "DetailCabinet",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "标注",
+        "type": "InkMarkupFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "光源与相机",
+        "type": "EnvFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "实体",
+        "type": "SolidBodyFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "曲面实体",
+        "type": "SurfaceBodyFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "备注",
+        "type": "CommentsFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "方程式",
+        "type": "EqnFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "材质 <未指定>",
+        "type": "MaterialFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "前视基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "上视基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "右视基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "原点",
+        "type": "OriginProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "Tables",
+        "type": "ConfigTableFolder",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面2_基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面3_基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面4_基准面",
+        "type": "RefPlane",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "机身背盖_拱形曲面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_2.2mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "定位止口恒截面避空_单边0_6",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "止口插入区避空_顶端余量0_6",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "储物舱可拆窗口_圆角20",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "储物舱贯通检修口",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头部颈轴走线口_直径50",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头颈贯通避空",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "背部圆头散热槽_坐标固定_尺寸由生成参数控制",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "散热槽贯通",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "前部切除_后盖接缝X负77_3",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "前后护盖分件_接缝间隙0_6",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "两个连接压板平面支承座",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "支承座_底32顶39",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "两个M3贯穿连接孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "连接孔_双向贯穿",
+        "type": "ICE",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "EDGE_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q10_BackStrap",
+    "name": "后背盖圆角连接压板",
+    "kind": "custom",
+    "path": "<LOCAL>/Q10_后背盖圆角连接压板.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（设计假设）",
+    "key_dimensions_mm": "44×14×2，R3，两D3.4孔距26",
+    "notes": "两块压板连接前后背盖；四个螺钉均从上方可达。几何夹紧不等于预紧力/疲劳验证。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -22.0,
+      -7.0,
+      0.0,
+      22.0,
+      7.0,
+      2.0
+    ],
+    "features": [
+      {
+        "name": "圆角可拆连接压板与两孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "压板厚2",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V03_DsiScreen",
+    "name": "微雪2点8寸触控屏厂家参考",
+    "kind": "purchased_reference",
+    "path": "<LOCAL>/V03_微雪2点8寸触控屏厂家参考.SLDPRT",
+    "solid_count": 10,
+    "bbox_mm": [
+      -26.450000000000003,
+      -37.650000000000006,
+      -10.10769286356938,
+      26.450000000000003,
+      33.65,
+      1.1
+    ],
+    "material_assumption": "厂家采购电子组件；不可据此参考几何推算总质量",
+    "key_dimensions_mm": "厂家原始坐标；详见接口提取审计",
+    "notes": "未采购。原厂STEP派生，非大工程师模型。"
+  },
+  {
+    "id": "H04_TouchHeadShell",
+    "name": "触控视觉曲面头壳",
+    "kind": "custom",
+    "path": "<LOCAL>/H04_触控视觉曲面头壳.SLDPRT",
+    "material_assumption": "PA12（密度1010kg/m3设计假设）",
+    "key_dimensions_mm": "四段圆角放样，深60，壁2.5；前面104×96；承托肩顶Z49.2，安装孔±39/±28；后壁D18穿线",
+    "notes": "玻璃与面框齐平，黑色柔性圈收口。屏幕孔位来自厂家STEP；相机、散热与颈部线缆待定型。未制造释放。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -58.738,
+      -51.37,
+      -0.12,
+      58.738,
+      51.37,
+      60.05
+    ],
+    "features": [
+      {
+        "name": "头壳_圆角平面过渡曲面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_2.5mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "屏幕支架环形承托肩",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "面框平面连接止口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "支架连接M3贯穿孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "面框连接M2_5贯穿孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "后壁颈部接口与穿线口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "后壁穿线口去锐边C0_3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H05_TouchBezel",
+    "name": "触控屏与镜头圆角面框",
+    "kind": "custom",
+    "path": "<LOCAL>/H05_触控屏与镜头圆角面框.SLDPRT",
+    "material_assumption": "PA12（密度1010kg/m3设计假设）",
+    "key_dimensions_mm": "104×96×2.2 R20；屏口72.3×53.9；背面沉台76.7×58.3深1.2；防脱薄唇厚0.6",
+    "notes": "玻璃与面框齐平，黑色柔性圈收口。屏幕孔位来自厂家STEP；相机、散热与颈部线缆待定型。未制造释放。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -52.0,
+      -48.0,
+      0.0,
+      52.0,
+      48.0,
+      2.2
+    ],
+    "features": [
+      {
+        "name": "圆角面框与触控屏全玻璃避空",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "齐平触控面框厚2_2",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "柔性密封圈背面限位沉台",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "柔性圈背装防脱薄唇",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "面框外缘柔和倒角C0_25",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H06_ScreenBracket",
+    "name": "触控屏承架与隐藏走线槽",
+    "kind": "custom",
+    "path": "<LOCAL>/H06_触控屏承架与隐藏走线槽.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（密度2700kg/m3设计假设）",
+    "key_dimensions_mm": "88×84×2 R20；屏孔X=-29.35/30.12，Y=8.45/-32.45，D2.9；安装孔±39/±28 D3.4",
+    "notes": "玻璃与面框齐平，黑色柔性圈收口。屏幕孔位来自厂家STEP；相机、散热与颈部线缆待定型。未制造释放。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -44.0,
+      -42.0,
+      0.0,
+      44.0,
+      42.0,
+      2.0
+    ],
+    "features": [
+      {
+        "name": "屏幕圆角承架_厂家孔轴与通风口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "屏幕承架厚2",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "摄像板可换安装区26乘25",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四处隐藏扎带应力释放槽",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H07_ScreenSeal",
+    "name": "触控屏齐平柔性密封圈",
+    "kind": "custom",
+    "path": "<LOCAL>/H07_触控屏齐平柔性密封圈.SLDPRT",
+    "material_assumption": "黑色硅胶（密度1100kg/m3设计假设）",
+    "key_dimensions_mm": "装配态：内71.3×52.9 R3；唇外72.3×53.9 R3.5；承边外76.3×57.9 R5.5；总高1.6",
+    "notes": "装配态名义几何；自由态过盈量、硅胶硬度及压缩量待试样验证，不能据此直接开模。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -38.15,
+      -40.95,
+      0.0,
+      38.15,
+      16.95,
+      1.6
+    ],
+    "features": [
+      {
+        "name": "密封圈背部防脱承边",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "柔性承边厚0_6",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "齐平黑色柔性收口唇",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V04_CM5Carrier",
+    "name": "微雪CM5迷你底板A厂家参考",
+    "kind": "purchased_reference",
+    "path": "<LOCAL>/V04_微雪CM5迷你底板A厂家参考.SLDPRT",
+    "solid_count": 337,
+    "bbox_mm": [
+      161.36491378397872,
+      259.83172824,
+      -2.800002922533252,
+      217.5998567808704,
+      299.84971272,
+      9.000000650735
+    ],
+    "material_assumption": "厂家采购电子组件；不可据此参考几何推算总质量",
+    "key_dimensions_mm": "厂家原始坐标；详见接口提取审计",
+    "notes": "未采购。原厂STEP派生，非大工程师模型。"
+  },
+  {
+    "id": "V05_CM5Core",
+    "name": "树莓派CM5核心板官方参考",
+    "kind": "purchased_reference",
+    "path": "<LOCAL>/V05_树莓派CM5核心板官方参考.SLDPRT",
+    "solid_count": 1076,
+    "bbox_mm": [
+      0.0,
+      0.0,
+      -1.1099998874660002,
+      55.0,
+      40.0,
+      3.5109999999999997
+    ],
+    "material_assumption": "厂家采购电子组件；不可据此参考几何推算总质量",
+    "key_dimensions_mm": "厂家原始坐标；详见接口提取审计",
+    "notes": "未采购。原厂STEP派生，非大工程师模型。"
+  },
+  {
+    "id": "H08_CaptiveHeadShell",
+    "name": "螺母杯定位曲面头壳",
+    "kind": "custom",
+    "path": "<LOCAL>/H08_螺母杯定位曲面头壳.SLDPRT",
+    "material_assumption": "PA12（密度1010kg/m3设计假设）",
+    "key_dimensions_mm": "沿用H04外形与78×56承架孔距；4个11×11定位座，D8.6入口；卡槽Z44.7至45.7",
+    "notes": "卡扣为名义装配态；变形、打印方向、公差、保持力与疲劳须试样验证。钢垫圈传递预紧载荷，底盖只定位、防转和承接松开后的螺母。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -58.738,
+      -51.37,
+      -0.12,
+      58.738,
+      51.37,
+      60.05
+    ],
+    "features": [
+      {
+        "name": "头壳_圆角平面过渡曲面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_2.5mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "屏幕支架环形承托肩",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "面框平面连接止口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "支架连接M3贯穿孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "面框连接M2_5贯穿孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "后壁颈部接口与穿线口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "后壁穿线口去锐边C0_3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四个螺母杯圆角定位座",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "螺母杯与钢垫圈可通过的D8_6入口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "八处底盖卡钩定位凹口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H09_CaptiveNutCup",
+    "name": "卡扣式螺母杯防落底盖",
+    "kind": "custom",
+    "path": "<LOCAL>/H09_卡扣式螺母杯防落底盖.SLDPRT",
+    "material_assumption": "PA12（密度1010kg/m3设计假设）",
+    "key_dimensions_mm": "底板14×14×1 R2；杯D8.4高5.4，六角槽AF5.7深2.4；双卡臂厚0.6，根R0.4",
+    "notes": "卡扣为名义装配态；变形、打印方向、公差、保持力与疲劳须试样验证。钢垫圈传递预紧载荷，底盖只定位、防转和承接松开后的螺母。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -7.0,
+      -7.0,
+      0.0,
+      7.0,
+      7.0,
+      6.4
+    ],
+    "features": [
+      {
+        "name": "底盖圆角底板与螺杆避空",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "底盖厚1",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "螺母杯圆柱外壁",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "六角螺母防转槽对边5_7",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四点轴向止挡小柱",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "双侧可释放弹性臂",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "卡扣根部圆角R0_4",
+        "type": "Fillet",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "卡钩导入斜面-1_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "卡钩导入斜面-1_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "卡钩导入斜面-1",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "卡钩导入斜面1_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "卡钩导入斜面1_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "卡钩导入斜面1",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H11_LongArmNutCup",
+    "name": "长臂卡扣螺母防落杯",
+    "kind": "custom",
+    "path": "<LOCAL>/H11_长臂卡扣螺母防落杯.SLDPRT",
+    "material_assumption": "PA12（密度1010kg/m3设计假设）",
+    "key_dimensions_mm": "底板16×16×1 R2；杯D8.4高8；六角AF5.7深2.4，底Z5.6；止挡顶Z4.5；臂厚0.6根R0.4",
+    "notes": "名义候选；装入力、疲劳、公差与工具释放待验证。杯原点装配Z37.6，名义杯底卸载间隙0.6。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -8.0,
+      -8.0,
+      0.0,
+      8.0,
+      8.0,
+      8.0
+    ],
+    "features": [
+      {
+        "name": "圆角底盖与螺杆避空",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "底盖厚1",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "D8_4螺母杯外壁",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "六角防转槽对边5_7",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四处加长止挡柱",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "双侧长弹性臂",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "弹性臂根部R0_4",
+        "type": "Fillet",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "长卡钩导入斜面-1_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "长卡钩导入斜面-1_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "长卡钩导入斜面-1",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "长卡钩导入斜面1_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "长卡钩导入斜面1_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "长卡钩导入斜面1",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H10_ClearanceHeadShell",
+    "name": "宽槽螺母杯定位曲面头壳",
+    "kind": "custom",
+    "path": "<LOCAL>/H10_宽槽螺母杯定位曲面头壳.SLDPRT",
+    "material_assumption": "PA12（密度1010kg/m3设计假设）",
+    "key_dimensions_mm": "四个13×13 R2定位座；D9.0入口；卡槽高1.8，底Z44.3；原承架孔78×56",
+    "notes": "名义候选；装入力、疲劳、公差与工具释放待验证。杯原点装配Z37.6，名义杯底卸载间隙0.6。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -58.738,
+      -51.37,
+      -0.12,
+      58.738,
+      51.37,
+      60.05
+    ],
+    "features": [
+      {
+        "name": "头壳_圆角平面过渡曲面_截面1_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面2_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面3_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面_截面4_草图",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "头壳_圆角平面过渡曲面",
+        "type": "Blend",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "等壁厚抽壳_2.5mm",
+        "type": "Shell",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "屏幕支架环形承托肩",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "面框平面连接止口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "支架连接M3贯穿孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "面框连接M2_5贯穿孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "后壁颈部接口与穿线口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "后壁穿线口去锐边C0_3",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四个加宽螺母杯定位座",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四处D9_0螺母杯装入孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "八处加深卡钩槽",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "V06_CameraModule3",
+    "name": "树莓派三代标准自动对焦相机官方参考",
+    "kind": "purchased_reference",
+    "path": "<LOCAL>/V06_树莓派三代标准自动对焦相机官方参考.SLDPRT",
+    "solid_count": 590,
+    "bbox_mm": [
+      -7.936359902593892e-14,
+      -7.936359902593892e-14,
+      -7.6499999999999995,
+      23.861999511719052,
+      25.000000000000252,
+      2.595
+    ],
+    "material_assumption": "厂家采购电子组件；不可据此参考几何推算总质量",
+    "key_dimensions_mm": "厂家原始坐标；详见接口提取审计",
+    "notes": "未采购。原厂STEP派生，非大工程师模型。"
+  },
+  {
+    "id": "H12_CameraScreenBracket",
+    "name": "带可换相机接口的屏幕承架",
+    "kind": "custom",
+    "path": "<LOCAL>/H12_带可换相机接口的屏幕承架.SLDPRT",
+    "material_assumption": "6061-T6 铝合金（密度2700kg/m3设计假设）",
+    "key_dimensions_mm": "原H06接口保留；相机避空28×29.5；托架M3孔X±20 Y25",
+    "notes": "Camera Module 3标准版STEP适配候选。官方PDF板厚1.12与STEP叠层不一致，支承高度、螺钉长度须实物复核；未制造释放。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -44.0,
+      -42.0,
+      0.0,
+      44.0,
+      42.0,
+      2.0
+    ],
+    "features": [
+      {
+        "name": "屏幕圆角承架_厂家孔轴与通风口",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "屏幕承架厚2",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "摄像板可换安装区26乘25",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四处隐藏扎带应力释放槽",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "非功能外缘倒角_C0.2",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "相机螺母与后插座避空28乘29_5",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "相机托架双M3连接孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "id": "H13_CameraCarrier",
+    "name": "四点绝缘可换相机托架",
+    "kind": "custom",
+    "path": "<LOCAL>/H13_四点绝缘可换相机托架.SLDPRT",
+    "material_assumption": "PA12（密度1010kg/m3设计假设）",
+    "key_dimensions_mm": "托板27.8×18；双耳总宽45；相机孔距21×12.5 D2.2；支承顶2.6373",
+    "notes": "Camera Module 3标准版STEP适配候选。官方PDF板厚1.12与STEP叠层不一致，支承高度、螺钉长度须实物复核；未制造释放。",
+    "solid_count": 1,
+    "bbox_mm": [
+      -22.5,
+      -15.7,
+      0.0,
+      22.5,
+      2.3,
+      2.637
+    ],
+    "features": [
+      {
+        "name": "圆角开框绝缘托板",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "托板抬高0_5并厚1_2",
+        "type": "Extrusion",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "双侧下沉安装耳",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四点绝缘支承柱",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "四个相机M2间隙孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "双耳M3间隙孔",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "板背双器件圆角避空",
+        "type": "ProfileFeature",
+        "error": [
+          0,
+          false
+        ]
+      },
+      {
+        "name": "安装耳外缘去锐C0_15",
+        "type": "Chamfer",
+        "error": [
+          0,
+          false
+        ]
+      }
+    ]
+  }
+]

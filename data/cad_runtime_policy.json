@@ -1,0 +1,5 @@
+{
+  "low_memory_action": "warn",
+  "source": "2026-09-08 用户明确要求：现在直接做，暂时不管内存",
+  "workflow": "继续单件后台建模，保存并关闭；保留内存记录，不启动并行SolidWorks任务。"
+}

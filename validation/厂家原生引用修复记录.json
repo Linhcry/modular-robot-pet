@@ -1,0 +1,56 @@
+{
+  "replacements": [
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/________.SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件001.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/BJJ02080030-AK45-10______.SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件110.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/BJJ02040260-4305-10____.SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件111.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/BJJ02040261-4305-10______.SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件112.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/AK40-8______.SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件113.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/BJJ01040175-AK45-10______.SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件127.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/C0103000453-________.SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件128.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/C0203000732-____________(M2.5__14).SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件125.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/C0203000739-M2.5__5______________.SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件126.SLDPRT"
+    },
+    {
+      "assembly": "<LOCAL>/AK45-10_厂家原始三维.SLDASM",
+      "old_reference": "<LOCAL>/C0203000736-____________(M2.5__3).SLDPRT",
+      "new_reference": "<LOCAL>/AK45-10_厂家零件129.SLDPRT"
+    }
+  ],
+  "component_instances": 77,
+  "missing": []
+}

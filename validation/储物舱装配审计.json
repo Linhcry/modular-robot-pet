@@ -1,0 +1,1495 @@
+{
+  "assembly": "储物舱模块",
+  "components": [
+    {
+      "name": "储物舱壳体",
+      "code": "C01_CargoShell",
+      "expected_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "actual_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": true
+    },
+    {
+      "name": "右燕尾滑靴",
+      "code": "Q02_Shoe",
+      "expected_xyz_mm": [
+        -65,
+        -45,
+        -15
+      ],
+      "actual_xyz_mm": [
+        -65.0,
+        -45.0,
+        -15.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "舱底垫圈_-1_-40",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -40,
+        -45,
+        3
+      ],
+      "actual_xyz_mm": [
+        -40.0,
+        -45.0,
+        3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "滑靴紧固螺钉_-1_-40",
+      "code": "S01_M3x8",
+      "expected_xyz_mm": [
+        -40,
+        -45,
+        3.5
+      ],
+      "actual_xyz_mm": [
+        -40.0,
+        -45.0,
+        3.5
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "舱底垫圈_-1_40",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        40,
+        -45,
+        3
+      ],
+      "actual_xyz_mm": [
+        40.0,
+        -45.0,
+        3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "滑靴紧固螺钉_-1_40",
+      "code": "S01_M3x8",
+      "expected_xyz_mm": [
+        40,
+        -45,
+        3.5
+      ],
+      "actual_xyz_mm": [
+        40.0,
+        -45.0,
+        3.5
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "左燕尾滑靴",
+      "code": "Q02_Shoe",
+      "expected_xyz_mm": [
+        -65,
+        45,
+        -15
+      ],
+      "actual_xyz_mm": [
+        -65.0,
+        45.0,
+        -15.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "舱底垫圈_1_-40",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -40,
+        45,
+        3
+      ],
+      "actual_xyz_mm": [
+        -40.0,
+        45.0,
+        3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "滑靴紧固螺钉_1_-40",
+      "code": "S01_M3x8",
+      "expected_xyz_mm": [
+        -40,
+        45,
+        3.5
+      ],
+      "actual_xyz_mm": [
+        -40.0,
+        45.0,
+        3.5
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "舱底垫圈_1_40",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        40,
+        45,
+        3
+      ],
+      "actual_xyz_mm": [
+        40.0,
+        45.0,
+        3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "滑靴紧固螺钉_1_40",
+      "code": "S01_M3x8",
+      "expected_xyz_mm": [
+        40,
+        45,
+        3.5
+      ],
+      "actual_xyz_mm": [
+        40.0,
+        45.0,
+        3.5
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链页_-45",
+      "code": "C04_HingeLeaf",
+      "expected_xyz_mm": [
+        -45,
+        60,
+        45
+      ],
+      "actual_xyz_mm": [
+        -45.0,
+        60.0,
+        45.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链外垫圈_-45_-10",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -55,
+        63,
+        35
+      ],
+      "actual_xyz_mm": [
+        -55.0,
+        63.0,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链螺钉_-45_-10",
+      "code": "S01_M3x10",
+      "expected_xyz_mm": [
+        -55,
+        63.5,
+        35
+      ],
+      "actual_xyz_mm": [
+        -55.0,
+        63.5,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链内垫圈_-45_-10",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -55,
+        56.5,
+        35
+      ],
+      "actual_xyz_mm": [
+        -55.0,
+        56.5,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链螺母_-45_-10",
+      "code": "S03_M3Nut",
+      "expected_xyz_mm": [
+        -55,
+        54.1,
+        35
+      ],
+      "actual_xyz_mm": [
+        -55.0,
+        54.1,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链外垫圈_-45_10",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -35,
+        63,
+        35
+      ],
+      "actual_xyz_mm": [
+        -35.0,
+        63.0,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链螺钉_-45_10",
+      "code": "S01_M3x10",
+      "expected_xyz_mm": [
+        -35,
+        63.5,
+        35
+      ],
+      "actual_xyz_mm": [
+        -35.0,
+        63.5,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链内垫圈_-45_10",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -35,
+        56.5,
+        35
+      ],
+      "actual_xyz_mm": [
+        -35.0,
+        56.5,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链螺母_-45_10",
+      "code": "S03_M3Nut",
+      "expected_xyz_mm": [
+        -35,
+        54.1,
+        35
+      ],
+      "actual_xyz_mm": [
+        -35.0,
+        54.1,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链页_45",
+      "code": "C04_HingeLeaf",
+      "expected_xyz_mm": [
+        45,
+        60,
+        45
+      ],
+      "actual_xyz_mm": [
+        45.0,
+        60.0,
+        45.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链外垫圈_45_-10",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        35,
+        63,
+        35
+      ],
+      "actual_xyz_mm": [
+        35.0,
+        63.0,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链螺钉_45_-10",
+      "code": "S01_M3x10",
+      "expected_xyz_mm": [
+        35,
+        63.5,
+        35
+      ],
+      "actual_xyz_mm": [
+        35.0,
+        63.5,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链内垫圈_45_-10",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        35,
+        56.5,
+        35
+      ],
+      "actual_xyz_mm": [
+        35.0,
+        56.5,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链螺母_45_-10",
+      "code": "S03_M3Nut",
+      "expected_xyz_mm": [
+        35,
+        54.1,
+        35
+      ],
+      "actual_xyz_mm": [
+        35.0,
+        54.1,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链外垫圈_45_10",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        55,
+        63,
+        35
+      ],
+      "actual_xyz_mm": [
+        55.0,
+        63.0,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链螺钉_45_10",
+      "code": "S01_M3x10",
+      "expected_xyz_mm": [
+        55,
+        63.5,
+        35
+      ],
+      "actual_xyz_mm": [
+        55.0,
+        63.5,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链内垫圈_45_10",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        55,
+        56.5,
+        35
+      ],
+      "actual_xyz_mm": [
+        55.0,
+        56.5,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "固定铰链螺母_45_10",
+      "code": "S03_M3Nut",
+      "expected_xyz_mm": [
+        55,
+        54.1,
+        35
+      ],
+      "actual_xyz_mm": [
+        55.0,
+        54.1,
+        35.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "左活动铰链页",
+      "code": "C05_MovingHinge",
+      "expected_xyz_mm": [
+        -45,
+        60,
+        45
+      ],
+      "actual_xyz_mm": [
+        -45.0,
+        60.0,
+        45.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "储物舱拱面舱盖",
+      "code": "C02_Lid",
+      "expected_xyz_mm": [
+        0,
+        0,
+        51
+      ],
+      "actual_xyz_mm": [
+        0.0,
+        0.0,
+        51.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "右活动铰链页",
+      "code": "C05_MovingHinge",
+      "expected_xyz_mm": [
+        45,
+        60,
+        45
+      ],
+      "actual_xyz_mm": [
+        45.0,
+        60.0,
+        45.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "活动页垫圈_-45_45",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -45,
+        45,
+        48
+      ],
+      "actual_xyz_mm": [
+        -45.0,
+        45.0,
+        48.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "活动页螺钉_-45_45",
+      "code": "S01_M3x8",
+      "expected_xyz_mm": [
+        -45,
+        45,
+        47.5
+      ],
+      "actual_xyz_mm": [
+        -45.0,
+        45.0,
+        47.5
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "活动页垫圈_-45_53",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -45,
+        53,
+        48
+      ],
+      "actual_xyz_mm": [
+        -45.0,
+        53.0,
+        48.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "活动页螺钉_-45_53",
+      "code": "S01_M3x8",
+      "expected_xyz_mm": [
+        -45,
+        53,
+        47.5
+      ],
+      "actual_xyz_mm": [
+        -45.0,
+        53.0,
+        47.5
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "活动页垫圈_45_45",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        45,
+        45,
+        48
+      ],
+      "actual_xyz_mm": [
+        45.0,
+        45.0,
+        48.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "活动页螺钉_45_45",
+      "code": "S01_M3x8",
+      "expected_xyz_mm": [
+        45,
+        45,
+        47.5
+      ],
+      "actual_xyz_mm": [
+        45.0,
+        45.0,
+        47.5
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "活动页垫圈_45_53",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        45,
+        53,
+        48
+      ],
+      "actual_xyz_mm": [
+        45.0,
+        53.0,
+        48.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "活动页螺钉_45_53",
+      "code": "S01_M3x8",
+      "expected_xyz_mm": [
+        45,
+        53,
+        47.5
+      ],
+      "actual_xyz_mm": [
+        45.0,
+        53.0,
+        47.5
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "铰链肩销_-45",
+      "code": "C06_HingePin",
+      "expected_xyz_mm": [
+        -65,
+        65,
+        45
+      ],
+      "actual_xyz_mm": [
+        -65.0,
+        65.0,
+        45.00000000000001
+      ],
+      "max_origin_error_mm": 7.105427357601002e-15,
+      "fixed": false
+    },
+    {
+      "name": "铰链销端垫圈_-45",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -26.5,
+        65,
+        45
+      ],
+      "actual_xyz_mm": [
+        -26.5,
+        65.0,
+        45.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "铰链销端螺母_-45",
+      "code": "S03_M3Nut",
+      "expected_xyz_mm": [
+        -26,
+        65,
+        45
+      ],
+      "actual_xyz_mm": [
+        -26.0,
+        65.0,
+        45.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "铰链肩销_45",
+      "code": "C06_HingePin",
+      "expected_xyz_mm": [
+        25,
+        65,
+        45
+      ],
+      "actual_xyz_mm": [
+        25.0,
+        65.0,
+        45.00000000000001
+      ],
+      "max_origin_error_mm": 7.105427357601002e-15,
+      "fixed": false
+    },
+    {
+      "name": "铰链销端垫圈_45",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        63.5,
+        65,
+        45
+      ],
+      "actual_xyz_mm": [
+        63.5,
+        65.0,
+        45.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "铰链销端螺母_45",
+      "code": "S03_M3Nut",
+      "expected_xyz_mm": [
+        64,
+        65,
+        45
+      ],
+      "actual_xyz_mm": [
+        64.0,
+        65.0,
+        45.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "可取出储物舱内托盘",
+      "code": "C03_Tray",
+      "expected_xyz_mm": [
+        0,
+        0,
+        7
+      ],
+      "actual_xyz_mm": [
+        0.0,
+        0.0,
+        7.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    }
+  ],
+  "mates": [
+    {
+      "name": "滑靴贴合舱底_-1",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴安装孔_-1",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱底垫圈_-1_-40_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱底垫圈_-1_-40_贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴紧固螺钉_-1_-40_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴紧固螺钉_-1_-40_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱底垫圈_-1_40_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱底垫圈_-1_40_贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴紧固螺钉_-1_40_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴紧固螺钉_-1_40_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴贴合舱底_1",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴安装孔_1",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱底垫圈_1_-40_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱底垫圈_1_-40_贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴紧固螺钉_1_-40_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴紧固螺钉_1_-40_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱底垫圈_1_40_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱底垫圈_1_40_贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴紧固螺钉_1_40_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "滑靴紧固螺钉_1_40_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链固定页面贴合_-45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链固定孔_-45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链外垫圈_-45_-10_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链外垫圈_-45_-10_贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链螺钉_-45_-10_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链螺钉_-45_-10_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内垫圈轴线_-45_-10",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内垫圈贴合_-45_-10",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链螺母轴线_-45_-10",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链螺母承压面_-45_-10",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链外垫圈_-45_10_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链外垫圈_-45_10_贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链螺钉_-45_10_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链螺钉_-45_10_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内垫圈轴线_-45_10",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内垫圈贴合_-45_10",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链螺母轴线_-45_10",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链螺母承压面_-45_10",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链固定页面贴合_45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链固定孔_45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链外垫圈_45_-10_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链外垫圈_45_-10_贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链螺钉_45_-10_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链螺钉_45_-10_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内垫圈轴线_45_-10",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内垫圈贴合_45_-10",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链螺母轴线_45_-10",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链螺母承压面_45_-10",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链外垫圈_45_10_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链外垫圈_45_10_贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链螺钉_45_10_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "固定铰链螺钉_45_10_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内垫圈轴线_45_10",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内垫圈贴合_45_10",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链螺母轴线_45_10",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链螺母承压面_45_10",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱盖转轴同心",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链单侧轴向间隙0_5",
+      "type": "MateDistanceDim",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱盖与左活动页贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "左活动页安装孔",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "右活动页与舱盖贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "右活动页安装孔",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页垫圈轴线_-45_45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页垫圈贴合_-45_45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页螺钉_-45_45_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页螺钉_-45_45_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页垫圈轴线_-45_53",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页垫圈贴合_-45_53",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页螺钉_-45_53_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页螺钉_-45_53_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页垫圈轴线_45_45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页垫圈贴合_45_45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页螺钉_45_45_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页螺钉_45_45_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页垫圈轴线_45_53",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页垫圈贴合_45_53",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页螺钉_45_53_轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "活动页螺钉_45_53_头部承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链肩销同心_-45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链销头止挡_-45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链销端垫圈轴线_-45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链销端垫圈压肩_-45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "销端螺母轴线_-45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "销端螺母贴合_-45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链肩销同心_45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链销头止挡_45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链销端垫圈轴线_45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "铰链销端垫圈压肩_45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "销端螺母轴线_45",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "销端螺母贴合_45",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "内托盘放置姿态_可抑制",
+      "type": "MateLock",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "舱盖姿态角_可调",
+      "type": "MatePlanarAngleDim",
+      "error": [
+        0,
+        false
+      ]
+    }
+  ]
+}

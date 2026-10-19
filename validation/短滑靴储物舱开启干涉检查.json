@@ -1,0 +1,576 @@
+[
+  {
+    "angle_deg": 0,
+    "configuration": "舱盖闭合",
+    "target_origin_mm": [
+      0,
+      0.0,
+      51.0
+    ],
+    "actual_origin_mm": [
+      0.0,
+      0.0,
+      51.0
+    ],
+    "origin_error_mm": 0.0,
+    "interferences": [
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-3",
+          "S01_M3x8内六角螺钉-5"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-7",
+          "S01_M3x8内六角螺钉-7"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-4",
+          "S01_M3x8内六角螺钉-6"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-8",
+          "S01_M3x8内六角螺钉-8"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-13"
+        ],
+        "volume_mm3": 9.71930227204339,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-15"
+        ],
+        "volume_mm3": 9.71930227204339,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-14"
+        ],
+        "volume_mm3": 9.71930227204339,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-16"
+        ],
+        "volume_mm3": 9.71930227204339,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      }
+    ],
+    "mate_errors": []
+  },
+  {
+    "angle_deg": 15,
+    "configuration": "舱盖开启15度",
+    "target_origin_mm": [
+      0,
+      3.7677355618256865,
+      67.61879288939826
+    ],
+    "actual_origin_mm": [
+      0.0,
+      3.767735561825688,
+      67.61879288939828
+    ],
+    "origin_error_mm": 1.4210854715202004e-14,
+    "interferences": [
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-8",
+          "S01_M3x8内六角螺钉-8"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-7",
+          "S01_M3x8内六角螺钉-7"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-4",
+          "S01_M3x8内六角螺钉-6"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-3",
+          "S01_M3x8内六角螺钉-5"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-14"
+        ],
+        "volume_mm3": 9.71930227204339,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-16"
+        ],
+        "volume_mm3": 9.71930227204339,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-15"
+        ],
+        "volume_mm3": 9.719302272043388,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-13"
+        ],
+        "volume_mm3": 9.719302272043388,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      }
+    ],
+    "mate_errors": []
+  },
+  {
+    "angle_deg": 30,
+    "configuration": "舱盖开启30度",
+    "target_origin_mm": [
+      0,
+      11.708348754011482,
+      82.69615242270663
+    ],
+    "actual_origin_mm": [
+      0.0,
+      11.708348754011485,
+      82.69615242270663
+    ],
+    "origin_error_mm": 3.552713678800501e-15,
+    "interferences": [
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-3",
+          "S01_M3x8内六角螺钉-5"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-8",
+          "S01_M3x8内六角螺钉-8"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-7",
+          "S01_M3x8内六角螺钉-7"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-4",
+          "S01_M3x8内六角螺钉-6"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-13"
+        ],
+        "volume_mm3": 9.719302272043379,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-15"
+        ],
+        "volume_mm3": 9.719302272043379,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-14"
+        ],
+        "volume_mm3": 9.71930227204336,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-16"
+        ],
+        "volume_mm3": 9.71930227204336,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      }
+    ],
+    "mate_errors": []
+  },
+  {
+    "angle_deg": 45,
+    "configuration": "舱盖开启45度",
+    "target_origin_mm": [
+      0,
+      23.280699909993693,
+      95.20458146424488
+    ],
+    "actual_origin_mm": [
+      0.0,
+      23.280699909993693,
+      95.20458146424488
+    ],
+    "origin_error_mm": 0.0,
+    "interferences": [
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-14"
+        ],
+        "volume_mm3": 9.719302272043482,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-13"
+        ],
+        "volume_mm3": 9.719302272043482,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-16"
+        ],
+        "volume_mm3": 9.719302272043482,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-15"
+        ],
+        "volume_mm3": 9.719302272043482,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-3",
+          "S01_M3x8内六角螺钉-5"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-7",
+          "S01_M3x8内六角螺钉-7"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-8",
+          "S01_M3x8内六角螺钉-8"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-4",
+          "S01_M3x8内六角螺钉-6"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      }
+    ],
+    "mate_errors": []
+  },
+  {
+    "angle_deg": 60,
+    "configuration": "舱盖开启60度",
+    "target_origin_mm": [
+      0,
+      37.696152422706625,
+      104.2916512459885
+    ],
+    "actual_origin_mm": [
+      0.0,
+      37.696152422706625,
+      104.29165124598853
+    ],
+    "origin_error_mm": 2.842170943040401e-14,
+    "interferences": [
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-16"
+        ],
+        "volume_mm3": 9.719302272043425,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-14"
+        ],
+        "volume_mm3": 9.719302272043425,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-8",
+          "S01_M3x8内六角螺钉-8"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-4",
+          "S01_M3x8内六角螺钉-6"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-7",
+          "S01_M3x8内六角螺钉-7"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-3",
+          "S01_M3x8内六角螺钉-5"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-15"
+        ],
+        "volume_mm3": 9.71930227204336,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-13"
+        ],
+        "volume_mm3": 9.71930227204336,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      }
+    ],
+    "mate_errors": []
+  },
+  {
+    "angle_deg": 75,
+    "configuration": "舱盖开启75度",
+    "target_origin_mm": [
+      0,
+      53.97231702607056,
+      109.33809297940455
+    ],
+    "actual_origin_mm": [
+      0.0,
+      53.972317026070556,
+      109.33809297940455
+    ],
+    "origin_error_mm": 7.105427357601002e-15,
+    "interferences": [
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-7",
+          "S01_M3x8内六角螺钉-7"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-8",
+          "S01_M3x8内六角螺钉-8"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-3",
+          "S01_M3x8内六角螺钉-5"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-4",
+          "S01_M3x8内六角螺钉-6"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-16"
+        ],
+        "volume_mm3": 9.71930227204336,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-14"
+        ],
+        "volume_mm3": 9.71930227204336,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-15"
+        ],
+        "volume_mm3": 9.71930227204331,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-13"
+        ],
+        "volume_mm3": 9.71930227204331,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      }
+    ],
+    "mate_errors": []
+  },
+  {
+    "angle_deg": 90,
+    "configuration": "舱盖开启90度",
+    "target_origin_mm": [
+      0,
+      71.0,
+      110.0
+    ],
+    "actual_origin_mm": [
+      0.0,
+      71.0,
+      110.00000000000001
+    ],
+    "origin_error_mm": 1.4210854715202004e-14,
+    "interferences": [
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-13"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-8",
+          "S01_M3x8内六角螺钉-8"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-3",
+          "S01_M3x8内六角螺钉-5"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-15"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-4",
+          "S01_M3x8内六角螺钉-6"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "Q05_分体短燕尾滑靴-7",
+          "S01_M3x8内六角螺钉-7"
+        ],
+        "volume_mm3": 9.71930227204342,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-16"
+        ],
+        "volume_mm3": 9.719302272043416,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      },
+      {
+        "components": [
+          "C02_储物舱盖-2",
+          "S01_M3x8内六角螺钉-14"
+        ],
+        "volume_mm3": 9.719302272043416,
+        "classification": "螺纹公称杆与攻丝底孔的预期简化交叠"
+      }
+    ],
+    "mate_errors": []
+  }
+]

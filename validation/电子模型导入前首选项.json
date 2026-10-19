@@ -1,0 +1,14 @@
+{
+  "字符串": {
+    "8": "<LOCAL>/gb_part.prtdot",
+    "9": "<LOCAL>/gb_assembly.asmdot"
+  },
+  "开关": {
+    "111": true,
+    "691": true,
+    "291": true,
+    "290": false,
+    "690": true
+  },
+  "装配映射": 0
+}

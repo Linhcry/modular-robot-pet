@@ -1,0 +1,12 @@
+序号,零件编号,中文名称,数量,类别,文件
+1,C01_CargoShell,储物舱壳体,1,custom,<LOCAL_PROJECT> project\modular_pet_sw\parts\C01_储物舱壳体.SLDPRT
+2,C02_Lid,储物舱盖,1,custom,<LOCAL_PROJECT> project\modular_pet_sw\parts\C02_储物舱盖.SLDPRT
+3,C03_Tray,储物舱内托盘,1,custom,<LOCAL_PROJECT> project\modular_pet_sw\parts\C03_储物舱内托盘.SLDPRT
+4,C04_HingeLeaf,舱盖铰链页,2,custom,<LOCAL_PROJECT> project\modular_pet_sw\parts\C04_舱盖铰链页.SLDPRT
+5,C05_MovingHinge,舱盖活动铰链页,2,custom,<LOCAL_PROJECT> project\modular_pet_sw\parts\C05_舱盖活动铰链页.SLDPRT
+6,C06_HingePin,舱盖铰链肩销,2,custom,<LOCAL_PROJECT> project\modular_pet_sw\parts\C06_舱盖铰链肩销.SLDPRT
+7,Q02_Shoe,快拆燕尾滑靴,2,custom,<LOCAL_PROJECT> project\modular_pet_sw\parts\Q02_快拆燕尾滑靴.SLDPRT
+8,S01_M3x10,M3内六角螺钉简化实体,4,standard_simplified,<LOCAL_PROJECT> project\modular_pet_sw\parts\S01_M3x10_M3内六角螺钉简化实体.SLDPRT
+9,S01_M3x8,M3x8内六角螺钉,8,standard_simplified,<LOCAL_PROJECT> project\modular_pet_sw\parts\S01_M3x8内六角螺钉.SLDPRT
+10,S02_M3Washer,M3平垫圈简化实体,18,standard_simplified,<LOCAL_PROJECT> project\modular_pet_sw\parts\S02_M3平垫圈简化实体.SLDPRT
+11,S03_M3Nut,M3螺母简化实体,6,standard_simplified,<LOCAL_PROJECT> project\modular_pet_sw\parts\S03_M3螺母简化实体.SLDPRT

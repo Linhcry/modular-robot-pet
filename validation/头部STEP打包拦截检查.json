@@ -1,0 +1,8 @@
+{
+  "旧审阅包SHA256": "7736fc8811ad89828e3600e3d4b04e9b46a1d4c7a71dfd9921e8137fa6bb4839",
+  "包内H04_STEP": "exports/step/H04_触控视觉曲面头壳.STEP",
+  "包内STEP_SHA256": "2839a52402943a3548225e02e6fb2f786bfe040d6185432a52e386a05f1813fe",
+  "与问题文件一致": true,
+  "含问题STEP的重新打包已拦截": true,
+  "旧包未被覆盖": true
+}

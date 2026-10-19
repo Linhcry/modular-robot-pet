@@ -1,0 +1,162 @@
+{
+  "阶段": "导出兼容性审计完成；含待修复文件",
+  "检查器": "OCCT 7.9.3；未启动SolidWorks",
+  "文件": [
+    {
+      "编号": "H04",
+      "文件": "<LOCAL>/H04_触控视觉曲面头壳.STEP",
+      "SHA256": "2839a52402943a3548225e02e6fb2f786bfe040d6185432a52e386a05f1813fe",
+      "缺少曲线定义的边": [
+        {
+          "实体号": 1475,
+          "原始定义": "EDGE_CURVE ( 'NONE', #72988, #23838, $, .T. )"
+        },
+        {
+          "实体号": 16989,
+          "原始定义": "EDGE_CURVE ( 'NONE', #45885, #73914, $, .T. )"
+        }
+      ],
+      "读取根数": 1,
+      "实体数": 1,
+      "总面数": 62,
+      "实体内面数": 28,
+      "实体外面数": 34,
+      "可用于本轮实体求交": false,
+      "载入日志": " **  Model Complete Check List  **\nCheck:1 -- Entity (n0:id) 1474:#1475   Type:EDGE_CURVE\nParameter n0.4 (edge_geometry) not an Entity\nCheck:2 -- Entity (n0:id) 16989:#16989   Type:EDGE_CURVE\nParameter n0.4 (edge_geometry) not an Entity\n",
+      "转换日志": " **    **\nCheck:1 -- Entity (n0:id) 16989:#16989   Type:EDGE_CURVE\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\nCheck:2 -- Entity (n0:id) 1474:#1475   Type:EDGE_CURVE\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\nCheck:3 -- Entity (n0:id) 21557:#21557   Type:EDGE_LOOP\nAt least one edge failed : wire not done\n EdgeLoop not mapped to TopoDS\nCheck:4 -- Entity (n0:id) 17961:#17961   Type:ADVANCED_FACE\nNo Outer Bound : Face not done\nCheck:5 -- Entity (n0:id) 70465:#70465   Type:B_SPLINE_SURFACE_WITH_KNOTS\nSurface forced to be periodic\nCheck:6 -- Entity (n0:id) 3550:#3550   Type:B_SPLINE_SURFACE_WITH_KNOTS\nSurface forced to be periodic\nCheck:7 -- Entity (n0:id) 8643:#8643   Type:EDGE_LOOP\nAt least one edge failed : wire not done\n EdgeLoop not mapped to TopoDS\nCheck:8 -- Entity (n0:id) 35639:#35639   Type:ADVANCED_FACE\nNo Outer Bound : Face not done\nCheck:9 -- Entity (n0:id) 74085:#74085   Type:CLOSED_SHELL\nImproperly connected shell split into parts\n"
+    },
+    {
+      "编号": "H05",
+      "文件": "<LOCAL>/H05_触控屏与镜头圆角面框.STEP",
+      "SHA256": "e36c3e0cd1aa8ff2f8ad356638cb5a2878298c5c0144188b70f00f5713d71e01",
+      "缺少曲线定义的边": [],
+      "读取根数": 1,
+      "实体数": 1,
+      "总面数": 54,
+      "实体内面数": 54,
+      "实体外面数": 0,
+      "可用于本轮实体求交": true,
+      "载入日志": "",
+      "转换日志": "",
+      "有效实体体积_mm3": 11586.97630690222
+    },
+    {
+      "编号": "H06",
+      "文件": "<LOCAL>/H06_触控屏承架与隐藏走线槽.STEP",
+      "SHA256": "993d75656b966a12e2e014b15b096986cfac1769a02ced8f21b5d4c06f26efbd",
+      "缺少曲线定义的边": [],
+      "读取根数": 1,
+      "实体数": 1,
+      "总面数": 130,
+      "实体内面数": 130,
+      "实体外面数": 0,
+      "可用于本轮实体求交": true,
+      "载入日志": "",
+      "转换日志": "",
+      "有效实体体积_mm3": 9324.60956480902
+    },
+    {
+      "编号": "H07",
+      "文件": "<LOCAL>/H07_触控屏齐平柔性密封圈.STEP",
+      "SHA256": "3a7e30085bf262a234199a2f451643518c5e7cc1aac7bd7a066f4024df37710f",
+      "缺少曲线定义的边": [],
+      "读取根数": 1,
+      "实体数": 1,
+      "总面数": 27,
+      "实体内面数": 27,
+      "实体外面数": 0,
+      "可用于本轮实体求交": true,
+      "载入日志": "",
+      "转换日志": "",
+      "有效实体体积_mm3": 499.0654824574364
+    },
+    {
+      "编号": "H08",
+      "文件": "<LOCAL>/H08_螺母杯定位曲面头壳.STEP",
+      "SHA256": "dabb0a95e5943629342ca8b49a969f68ff18ae9e8ac1dc867fc666a0a8e18ab8",
+      "缺少曲线定义的边": [
+        {
+          "实体号": 22546,
+          "原始定义": "EDGE_CURVE ( 'NONE', #57008, #60347, $, .T. )"
+        },
+        {
+          "实体号": 58801,
+          "原始定义": "EDGE_CURVE ( 'NONE', #78096, #44286, $, .T. )"
+        }
+      ],
+      "读取根数": 1,
+      "实体数": 1,
+      "总面数": 150,
+      "实体内面数": 116,
+      "实体外面数": 34,
+      "可用于本轮实体求交": false,
+      "载入日志": " **  Model Complete Check List  **\nCheck:1 -- Entity (n0:id) 22546:#22546   Type:EDGE_CURVE\nParameter n0.4 (edge_geometry) not an Entity\nCheck:2 -- Entity (n0:id) 58801:#58801   Type:EDGE_CURVE\nParameter n0.4 (edge_geometry) not an Entity\n",
+      "转换日志": " **    **\nCheck:1 -- Entity (n0:id) 58801:#58801   Type:EDGE_CURVE\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\nCheck:2 -- Entity (n0:id) 22546:#22546   Type:EDGE_CURVE\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\nCheck:3 -- Entity (n0:id) 26618:#26618   Type:EDGE_LOOP\nAt least one edge failed : wire not done\n EdgeLoop not mapped to TopoDS\nCheck:4 -- Entity (n0:id) 41052:#41052   Type:ADVANCED_FACE\nNo Outer Bound : Face not done\nCheck:5 -- Entity (n0:id) 43540:#43541   Type:B_SPLINE_SURFACE_WITH_KNOTS\nSurface forced to be periodic\nCheck:6 -- Entity (n0:id) 62670:#62670   Type:B_SPLINE_SURFACE_WITH_KNOTS\nSurface forced to be periodic\nCheck:7 -- Entity (n0:id) 13842:#13842   Type:EDGE_LOOP\nAt least one edge failed : wire not done\n EdgeLoop not mapped to TopoDS\nCheck:8 -- Entity (n0:id) 51250:#51250   Type:ADVANCED_FACE\nNo Outer Bound : Face not done\nCheck:9 -- Entity (n0:id) 19844:#19844   Type:CLOSED_SHELL\nImproperly connected shell split into parts\n"
+    },
+    {
+      "编号": "H09",
+      "文件": "<LOCAL>/H09_卡扣式螺母杯防落底盖.STEP",
+      "SHA256": "5940eb1fdb6582121eb827ede7b2b6f47bd54ecabe9fefd0db5c6ffb4682702d",
+      "缺少曲线定义的边": [],
+      "读取根数": 1,
+      "实体数": 1,
+      "总面数": 50,
+      "实体内面数": 50,
+      "实体外面数": 0,
+      "可用于本轮实体求交": true,
+      "载入日志": "",
+      "转换日志": "",
+      "有效实体体积_mm3": 401.25797996364133
+    },
+    {
+      "编号": "H10",
+      "文件": "<LOCAL>/H10_宽槽螺母杯定位曲面头壳.STEP",
+      "SHA256": "a75898dce1de753ccc2e325b4e3f3fe552420ecdaf623cb27907a180f637a626",
+      "缺少曲线定义的边": [
+        {
+          "实体号": 19964,
+          "原始定义": "EDGE_CURVE ( 'NONE', #22948, #35116, $, .T. )"
+        },
+        {
+          "实体号": 50188,
+          "原始定义": "EDGE_CURVE ( 'NONE', #39142, #19140, $, .T. )"
+        }
+      ],
+      "读取根数": 1,
+      "实体数": 1,
+      "总面数": 154,
+      "实体内面数": 120,
+      "实体外面数": 34,
+      "可用于本轮实体求交": false,
+      "载入日志": " **  Model Complete Check List  **\nCheck:1 -- Entity (n0:id) 19964:#19964   Type:EDGE_CURVE\nParameter n0.4 (edge_geometry) not an Entity\nCheck:2 -- Entity (n0:id) 50188:#50188   Type:EDGE_CURVE\nParameter n0.4 (edge_geometry) not an Entity\n",
+      "转换日志": " **    **\nCheck:1 -- Entity (n0:id) 50188:#50188   Type:EDGE_CURVE\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\nCheck:2 -- Entity (n0:id) 19964:#19964   Type:EDGE_CURVE\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\n Geom Curve in EdgeCurve is equal to 0\n an Edge not mapped\nCheck:3 -- Entity (n0:id) 21770:#21770   Type:EDGE_LOOP\nAt least one edge failed : wire not done\n EdgeLoop not mapped to TopoDS\nCheck:4 -- Entity (n0:id) 49932:#49932   Type:ADVANCED_FACE\nNo Outer Bound : Face not done\nCheck:5 -- Entity (n0:id) 72898:#72898   Type:B_SPLINE_SURFACE_WITH_KNOTS\nSurface forced to be periodic\nCheck:6 -- Entity (n0:id) 18228:#18228   Type:B_SPLINE_SURFACE_WITH_KNOTS\nSurface forced to be periodic\nCheck:7 -- Entity (n0:id) 62511:#62511   Type:EDGE_LOOP\nAt least one edge failed : wire not done\n EdgeLoop not mapped to TopoDS\nCheck:8 -- Entity (n0:id) 31947:#31947   Type:ADVANCED_FACE\nNo Outer Bound : Face not done\nCheck:9 -- Entity (n0:id) 22167:#22167   Type:CLOSED_SHELL\nImproperly connected shell split into parts\n"
+    },
+    {
+      "编号": "H11",
+      "文件": "<LOCAL>/H11_长臂卡扣螺母防落杯.STEP",
+      "SHA256": "4dcb5507b2a38f0be9f56b3c6404c117af6345be0044558a113c02e10d99e32d",
+      "缺少曲线定义的边": [],
+      "读取根数": 1,
+      "实体数": 1,
+      "总面数": 50,
+      "实体内面数": 50,
+      "实体外面数": 0,
+      "可用于本轮实体求交": true,
+      "载入日志": "",
+      "转换日志": "",
+      "有效实体体积_mm3": 568.1082724113791
+    }
+  ],
+  "结论边界": "输入STEP缺少曲线定义可直接由文件文本确认；实体丢面是当前OCCT读取结果。不能据此直接认定原生SLDPRT损坏，也不能使用不完整转换体做无干涉结论。",
+  "本进程内存": {
+    "PageFaultCount": 154629,
+    "PeakWorkingSetSize": 260943872,
+    "WorkingSetSize": 215863296,
+    "QuotaPeakPagedPoolUsage": 497776,
+    "QuotaPagedPoolUsage": 497600,
+    "QuotaPeakNonPagedPoolUsage": 38088,
+    "QuotaNonPagedPoolUsage": 36728,
+    "PagefileUsage": 141926400,
+    "PeakPagefileUsage": 180797440
+  }
+}

@@ -1,0 +1,10 @@
+编号,中文名称,数量,原生零件,性质
+H10_ClearanceHeadShell,宽槽螺母杯定位曲面头壳,1,H10_宽槽螺母杯定位曲面头壳.SLDPRT,自制候选
+H11_LongArmNutCup,长臂卡扣螺母防落杯,4,H11_长臂卡扣螺母防落杯.SLDPRT,自制候选
+H05_TouchBezel,触控屏与镜头圆角面框,1,H05_触控屏与镜头圆角面框.SLDPRT,自制候选
+H06_ScreenBracket,触控屏承架与隐藏走线槽,1,H06_触控屏承架与隐藏走线槽.SLDPRT,自制候选
+H07_ScreenSeal,触控屏齐平柔性密封圈,1,H07_触控屏齐平柔性密封圈.SLDPRT,自制候选
+V03_DsiScreen,微雪2点8寸触控屏厂家参考,1,V03_微雪2点8寸触控屏厂家参考.SLDPRT,厂家参考
+S01_M3x10,M3内六角螺钉简化实体,4,S01_M3x10_M3内六角螺钉简化实体.SLDPRT,标准件简化参考
+S02_M3Washer,M3平垫圈简化实体,8,S02_M3平垫圈简化实体.SLDPRT,标准件简化参考
+S03_M3Nut,M3螺母简化实体,4,S03_M3螺母简化实体.SLDPRT,标准件简化参考

@@ -1,0 +1,2 @@
+# Independent STEP checks only; do not install the VTK-dependent distribution.
+cadquery-ocp-novtk==7.9.3.1.1

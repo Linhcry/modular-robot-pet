@@ -1,0 +1,33 @@
+{
+  "门限边界验证": [
+    {
+      "可用物理_GiB": 4,
+      "提交余量_GiB": 6,
+      "允许": true
+    },
+    {
+      "可用物理_GiB": 3.99,
+      "提交余量_GiB": 6,
+      "允许": false
+    },
+    {
+      "可用物理_GiB": 4,
+      "提交余量_GiB": 5.99,
+      "允许": false
+    },
+    {
+      "可用物理_GiB": 8,
+      "提交余量_GiB": 12,
+      "允许": true
+    }
+  ],
+  "语法检查": [
+    "sw_memory.py",
+    "sw_core.py",
+    "sw_assembly.py",
+    "assemble_captive_head_nuts.py",
+    "audit_captive_head_nuts.py",
+    "import_electronics_references.py"
+  ],
+  "未执行": "未重启SolidWorks，未重跑完整装配或大型模型导入；阶段检查不是硬内存上限。"
+}

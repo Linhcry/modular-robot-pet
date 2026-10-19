@@ -1,0 +1,9 @@
+{
+  "source": "<LOCAL>/H10_原生AP214_保留周期面.STEP",
+  "sha256": "855c9e6026306dec1c285751e18e4e06566e156d4b5c189210f4a41a881e3064",
+  "closed_valid_solids": 1,
+  "volume_mm3": 89010.37380640543,
+  "estimated_error": 1.8040422641133667e-08,
+  "native_volume_mm3": 88779.38494702996,
+  "delta_mm3": 230.9888593754731
+}

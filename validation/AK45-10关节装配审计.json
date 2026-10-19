@@ -1,0 +1,929 @@
+{
+  "assembly": "AK45-10大腿关节模块",
+  "components": [
+    {
+      "name": "采购电机固定部件",
+      "code": "V01_AK4510Stator",
+      "expected_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "actual_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": true
+    },
+    {
+      "name": "采购电机输出端",
+      "code": "V02_AK4510Output",
+      "expected_xyz_mm": [
+        0,
+        0,
+        0
+      ],
+      "actual_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "定子安装盘",
+      "code": "J05_AK4510StatorAdapter",
+      "expected_xyz_mm": [
+        0,
+        0,
+        -3
+      ],
+      "actual_xyz_mm": [
+        0.0,
+        0.0,
+        -3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "输出转换盘",
+      "code": "J06_AK4510OutputAdapter",
+      "expected_xyz_mm": [
+        0,
+        0,
+        43
+      ],
+      "actual_xyz_mm": [
+        1.1792007404415916e-13,
+        0.0,
+        43.00000000000001
+      ],
+      "max_origin_error_mm": 1.1792007404415916e-13,
+      "fixed": false
+    },
+    {
+      "name": "大腿承载连杆",
+      "code": "L01_UpperLink",
+      "expected_xyz_mm": [
+        0,
+        0,
+        49
+      ],
+      "actual_xyz_mm": [
+        1.1792007404415916e-13,
+        3.469446951953614e-15,
+        49.0
+      ],
+      "max_origin_error_mm": 1.1792007404415916e-13,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5垫圈1",
+      "code": "S05_M25Washer",
+      "expected_xyz_mm": [
+        22.5,
+        0.0,
+        -3
+      ],
+      "actual_xyz_mm": [
+        22.5,
+        0.0,
+        -3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5螺钉1",
+      "code": "S04_M25x8",
+      "expected_xyz_mm": [
+        22.5,
+        0.0,
+        -3.5
+      ],
+      "actual_xyz_mm": [
+        22.5,
+        0.0,
+        -3.5000000000000004
+      ],
+      "max_origin_error_mm": 4.440892098500626e-16,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5垫圈2",
+      "code": "S05_M25Washer",
+      "expected_xyz_mm": [
+        11.250000000000002,
+        19.48557158514987,
+        -3
+      ],
+      "actual_xyz_mm": [
+        11.250000000000002,
+        19.48557158514987,
+        -3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5螺钉2",
+      "code": "S04_M25x8",
+      "expected_xyz_mm": [
+        11.250000000000002,
+        19.48557158514987,
+        -3.5
+      ],
+      "actual_xyz_mm": [
+        11.250000000000002,
+        19.48557158514987,
+        -3.5000000000000004
+      ],
+      "max_origin_error_mm": 4.440892098500626e-16,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5垫圈3",
+      "code": "S05_M25Washer",
+      "expected_xyz_mm": [
+        -11.249999999999995,
+        19.48557158514987,
+        -3
+      ],
+      "actual_xyz_mm": [
+        -11.249999999999995,
+        19.48557158514987,
+        -3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5螺钉3",
+      "code": "S04_M25x8",
+      "expected_xyz_mm": [
+        -11.249999999999995,
+        19.48557158514987,
+        -3.5
+      ],
+      "actual_xyz_mm": [
+        -11.249999999999995,
+        19.48557158514987,
+        -3.5000000000000004
+      ],
+      "max_origin_error_mm": 4.440892098500626e-16,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5垫圈4",
+      "code": "S05_M25Washer",
+      "expected_xyz_mm": [
+        -11.25000000000001,
+        -19.485571585149867,
+        -3
+      ],
+      "actual_xyz_mm": [
+        -11.25000000000001,
+        -19.485571585149867,
+        -3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5螺钉4",
+      "code": "S04_M25x8",
+      "expected_xyz_mm": [
+        -11.25000000000001,
+        -19.485571585149867,
+        -3.5
+      ],
+      "actual_xyz_mm": [
+        -11.25000000000001,
+        -19.485571585149867,
+        -3.5000000000000004
+      ],
+      "max_origin_error_mm": 4.440892098500626e-16,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5垫圈5",
+      "code": "S05_M25Washer",
+      "expected_xyz_mm": [
+        11.250000000000002,
+        -19.48557158514987,
+        -3
+      ],
+      "actual_xyz_mm": [
+        11.250000000000002,
+        -19.48557158514987,
+        -3.0
+      ],
+      "max_origin_error_mm": 0.0,
+      "fixed": false
+    },
+    {
+      "name": "定子端M2.5螺钉5",
+      "code": "S04_M25x8",
+      "expected_xyz_mm": [
+        11.250000000000002,
+        -19.48557158514987,
+        -3.5
+      ],
+      "actual_xyz_mm": [
+        11.250000000000002,
+        -19.48557158514987,
+        -3.5000000000000004
+      ],
+      "max_origin_error_mm": 4.440892098500626e-16,
+      "fixed": false
+    },
+    {
+      "name": "输出端M2.5小垫圈1",
+      "code": "S06_M25SmallWasher",
+      "expected_xyz_mm": [
+        8.266365894244634e-16,
+        -13.5,
+        45.8
+      ],
+      "actual_xyz_mm": [
+        1.1874671063358362e-13,
+        -13.5,
+        45.8
+      ],
+      "max_origin_error_mm": 1.1792007404415916e-13,
+      "fixed": false
+    },
+    {
+      "name": "输出端M2.5螺钉1",
+      "code": "S04_M25x8",
+      "expected_xyz_mm": [
+        8.266365894244634e-16,
+        -13.5,
+        46.3
+      ],
+      "actual_xyz_mm": [
+        1.1874671063358362e-13,
+        -13.5,
+        46.30000000000001
+      ],
+      "max_origin_error_mm": 1.1792007404415916e-13,
+      "fixed": false
+    },
+    {
+      "name": "输出端M2.5小垫圈2",
+      "code": "S06_M25SmallWasher",
+      "expected_xyz_mm": [
+        11.691342951089922,
+        6.749999999999999,
+        45.8
+      ],
+      "actual_xyz_mm": [
+        11.691342951090041,
+        6.749999999999999,
+        45.8
+      ],
+      "max_origin_error_mm": 1.1901590823981678e-13,
+      "fixed": false
+    },
+    {
+      "name": "输出端M2.5螺钉2",
+      "code": "S04_M25x8",
+      "expected_xyz_mm": [
+        11.691342951089922,
+        6.749999999999999,
+        46.3
+      ],
+      "actual_xyz_mm": [
+        11.691342951090041,
+        6.749999999999999,
+        46.30000000000001
+      ],
+      "max_origin_error_mm": 1.1901590823981678e-13,
+      "fixed": false
+    },
+    {
+      "name": "输出端M2.5小垫圈3",
+      "code": "S06_M25SmallWasher",
+      "expected_xyz_mm": [
+        -11.691342951089922,
+        6.749999999999999,
+        45.8
+      ],
+      "actual_xyz_mm": [
+        -11.691342951089805,
+        6.749999999999999,
+        45.8
+      ],
+      "max_origin_error_mm": 1.1723955140041653e-13,
+      "fixed": false
+    },
+    {
+      "name": "输出端M2.5螺钉3",
+      "code": "S04_M25x8",
+      "expected_xyz_mm": [
+        -11.691342951089922,
+        6.749999999999999,
+        46.3
+      ],
+      "actual_xyz_mm": [
+        -11.691342951089805,
+        6.749999999999999,
+        46.30000000000001
+      ],
+      "max_origin_error_mm": 1.1723955140041653e-13,
+      "fixed": false
+    },
+    {
+      "name": "连杆M3垫圈1",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        19.0,
+        0.0,
+        54
+      ],
+      "actual_xyz_mm": [
+        19.000000000000117,
+        3.469446951953614e-15,
+        54.0
+      ],
+      "max_origin_error_mm": 1.1723955140041653e-13,
+      "fixed": false
+    },
+    {
+      "name": "连杆M3螺钉1",
+      "code": "S01_M3x10",
+      "expected_xyz_mm": [
+        19.0,
+        0.0,
+        54.5
+      ],
+      "actual_xyz_mm": [
+        19.000000000000117,
+        3.469446951953614e-15,
+        54.50000000000001
+      ],
+      "max_origin_error_mm": 1.1723955140041653e-13,
+      "fixed": false
+    },
+    {
+      "name": "连杆M3垫圈2",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        1.1634144591899855e-15,
+        19.0,
+        54
+      ],
+      "actual_xyz_mm": [
+        1.1792007404415916e-13,
+        19.000000000000004,
+        54.0
+      ],
+      "max_origin_error_mm": 1.1675665958496917e-13,
+      "fixed": false
+    },
+    {
+      "name": "连杆M3螺钉2",
+      "code": "S01_M3x10",
+      "expected_xyz_mm": [
+        1.1634144591899855e-15,
+        19.0,
+        54.5
+      ],
+      "actual_xyz_mm": [
+        1.1792007404415916e-13,
+        19.000000000000004,
+        54.50000000000001
+      ],
+      "max_origin_error_mm": 1.1675665958496917e-13,
+      "fixed": false
+    },
+    {
+      "name": "连杆M3垫圈3",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -19.0,
+        2.326828918379971e-15,
+        54
+      ],
+      "actual_xyz_mm": [
+        -18.999999999999883,
+        3.469446951953614e-15,
+        54.0
+      ],
+      "max_origin_error_mm": 1.1723955140041653e-13,
+      "fixed": false
+    },
+    {
+      "name": "连杆M3螺钉3",
+      "code": "S01_M3x10",
+      "expected_xyz_mm": [
+        -19.0,
+        2.326828918379971e-15,
+        54.5
+      ],
+      "actual_xyz_mm": [
+        -18.999999999999883,
+        3.469446951953614e-15,
+        54.50000000000001
+      ],
+      "max_origin_error_mm": 1.1723955140041653e-13,
+      "fixed": false
+    },
+    {
+      "name": "连杆M3垫圈4",
+      "code": "S02_M3Washer",
+      "expected_xyz_mm": [
+        -3.4902433775699565e-15,
+        -19.0,
+        54
+      ],
+      "actual_xyz_mm": [
+        1.1792007404415916e-13,
+        -18.999999999999996,
+        54.0
+      ],
+      "max_origin_error_mm": 1.2141031742172913e-13,
+      "fixed": false
+    },
+    {
+      "name": "连杆M3螺钉4",
+      "code": "S01_M3x10",
+      "expected_xyz_mm": [
+        -3.4902433775699565e-15,
+        -19.0,
+        54.5
+      ],
+      "actual_xyz_mm": [
+        1.1792007404415916e-13,
+        -18.999999999999996,
+        54.50000000000001
+      ],
+      "max_origin_error_mm": 1.2141031742172913e-13,
+      "fixed": false
+    }
+  ],
+  "mates": [
+    {
+      "name": "电机真实输出轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "电机输出端面位置43",
+      "type": "MateDistanceDim",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "关节姿态角_可调",
+      "type": "MatePlanarAngleDim",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子五孔接口基准_同心锁转",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子安装盘贴合后端盖",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出三孔接口基准_同心锁转",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出转换盘贴合厂家法兰",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆中心接口_同心锁转",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆贴合输出转换盘",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈1轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈1承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉1轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉1头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈2轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈2承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉2轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉2头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈3轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈3承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉3轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉3头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈4轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈4承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉4轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉4头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈5轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子垫圈5承压面",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉5轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "定子螺钉5头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出垫圈1轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出垫圈1沉孔底贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出螺钉1轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出螺钉1头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出垫圈2轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出垫圈2沉孔底贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出螺钉2轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出螺钉2头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出垫圈3轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出垫圈3沉孔底贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出螺钉3轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "输出螺钉3头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆垫圈1轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆垫圈1贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆螺钉1轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆螺钉1头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆垫圈2轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆垫圈2贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆螺钉2轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆螺钉2头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆垫圈3轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆垫圈3贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆螺钉3轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆螺钉3头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆垫圈4轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆垫圈4贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆螺钉4轴线",
+      "type": "MateConcentric",
+      "error": [
+        0,
+        false
+      ]
+    },
+    {
+      "name": "连杆螺钉4头部贴合",
+      "type": "MateCoincident",
+      "error": [
+        0,
+        false
+      ]
+    }
+  ],
+  "采购计数": "V01+V02合计一台AK45-10 KV75，非两台电机",
+  "边界": "安装与运动结构样机；不代表强度、温升或整机爬楼已验证"
+}
